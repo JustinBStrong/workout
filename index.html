@@ -1,23 +1,1342 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#175cd3" />
-    <meta name="color-scheme" content="light" />
-    <meta
-      name="description"
-      content="A six-session round-robin workout and rehabilitation reference."
-    />
-    <link rel="manifest" href="./manifest.webmanifest" />
-    <link rel="icon" href="./icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Workout</title>
-  </head>
-  <body>
-    <a class="skip-link" href="#main">Skip to workout</a>
-    <div id="app" aria-live="polite"></div>
-    <noscript>This workout needs JavaScript for navigation and device-only tracking.</noscript>
-    <script type="module" src="./app.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+<h1 id="workout">Workout</h1>
+<p>This is a <strong>seven-session cycle, not a seven-day calendar
+week</strong>. Perform the sessions in order and insert rest days
+whenever recovery requires them. When the knee is sensitive, use the
+temporary version of Session 1 rather than deleting that session and
+compressing all of the upper-body workouts together.</p>
+<p><a href="#session-details">Session details</a> · <a
+href="#progression">Progression</a> · <a href="#exercise-notes">Exercise
+notes</a> · <a href="#rationale">Program rationale</a></p>
+<h2 id="cheat-sheet">Cheat sheet</h2>
+<h3 id="session-1-knee-light-legs-ql"><a href="#session-1">Session 1 —
+Knee-Light Legs + QL</a></h3>
+<ol type="1">
+<li><strong>Band-above-knee squat preparation</strong> — 2 light
+sets<br />
+</li>
+<li><strong>Dead bug</strong> — 2 controlled sets<br />
+</li>
+<li><strong>Belt squat / hack squat / leg press / goblet squat</strong>
+— choose one, 3 × 8–12<br />
+</li>
+<li><strong>Reverse lunge / low step-up</strong> — choose one, 2 × 8–12
+each side<br />
+</li>
+<li><strong>Seated calf raise</strong> — 4 × 8–15<br />
+</li>
+<li><strong>Tibialis raise</strong> — 3 × 15–25<br />
+</li>
+<li><strong>Hip abductor machine or cable abduction</strong> — 3 ×
+15–25<br />
+</li>
+<li><strong>Hip adductor machine</strong> — 3 × 15–25<br />
+</li>
+<li><a href="#pallof-press"><strong>Pallof press</strong></a> — 2–3 ×
+10–12 each side<br />
+</li>
+<li><a href="#side-plank"><strong>Side plank</strong></a> — 2–3 × 20–40
+seconds each side</li>
+</ol>
+<h3 id="session-2-back-width-minor-biceps"><a href="#session-2">Session
+2 — Back Width + Minor Biceps</a></h3>
+<ol type="1">
+<li><a href="#wall-slide"><strong>Wall slide + lift-off</strong></a> — 2
+× 8–12<br />
+</li>
+<li><a href="#pulldown"><strong>Neutral-grip pull-up / assisted pull-up
+/ neutral-grip pulldown</strong></a> — top set 5–8, then 3 × 6–10<br />
+</li>
+<li><a href="#one-arm-pulldown"><strong>One-arm kneeling cable
+pulldown</strong></a> — 3 × 8–12 each side<br />
+</li>
+<li><a href="#straight-arm-pulldown"><strong>Straight-arm
+pulldown</strong></a> — 2 × 12–15<br />
+</li>
+<li><a href="#lat-row"><strong>High cable lat row toward the
+hip</strong></a> — 2 × 10–15 each side<br />
+</li>
+<li><strong>Bayesian cable curl</strong> — 2 × 10–15<br />
+</li>
+<li><strong>Prone Y</strong> — 2 × 8–12</li>
+</ol>
+<h3 id="session-3-bench-strength-chest-minor-triceps"><a
+href="#session-3">Session 3 — Bench Strength + Chest + Minor
+Triceps</a></h3>
+<ol type="1">
+<li><a href="#push-up-plus"><strong>Push-up plus on handles</strong></a>
+— 2 × 5–8, deliberately submaximal<br />
+</li>
+<li><a href="#bench-press"><strong>Flat bench press</strong></a> — top
+set 3–5, then 3 × 5–8<br />
+</li>
+<li><a href="#bench-press"><strong>Close-grip paused bench
+press</strong></a> — 2 × 6–8<br />
+</li>
+<li><a href="#scapular-fixation"><strong>Cable fly / pec
+deck</strong></a> — 2 × 10–15<br />
+</li>
+<li><strong>Overhead cable triceps extension</strong> — 2 × 8–12<br />
+</li>
+<li><strong>Rope pushdown</strong> — 2 × 10–15<br />
+</li>
+<li><a href="#cable-punch"><strong>Cable punch</strong></a> — 2 ×
+12–15<br />
+</li>
+<li><a href="#face-pull"><strong>Face-pull to external
+rotation</strong></a> — 2 × 12–15</li>
+</ol>
+<h3 id="session-4-back-thickness-rear-delts-minor-biceps"><a
+href="#session-4">Session 4 — Back Thickness + Rear Delts + Minor
+Biceps</a></h3>
+<ol type="1">
+<li><a href="#bear-crawl"><strong>Bear-crawl hold</strong></a> — 2
+controlled sets<br />
+</li>
+<li><a href="#rows"><strong>Chest-supported T-bar row / seal
+row</strong></a> — top set 5–8, then 3 × 6–10<br />
+</li>
+<li><a href="#rows"><strong>One-arm cable row</strong></a> — 3 × 8–12
+each side<br />
+</li>
+<li><a href="#reverse-fly"><strong>Reverse pec deck / rear-delt cable
+fly</strong></a> — 3 × 12–20<br />
+</li>
+<li><a href="#kelso-shrug"><strong>Kelso shrug or chest-supported
+straight-arm retraction shrug</strong></a> — 2 × 10–15<br />
+</li>
+<li><strong>Hammer curl</strong> — 2 × 10–15<br />
+</li>
+<li><a href="#retraction"><strong>Prone T + prone W</strong></a> — 2
+sets of each</li>
+</ol>
+<h3 id="session-5-delts-serratus-loaded-upward-rotation"><a
+href="#session-5">Session 5 — Delts + Serratus + Loaded Upward
+Rotation</a></h3>
+<ol type="1">
+<li><a href="#wall-slide"><strong>Wall slide + lift-off</strong></a> — 2
+× 8–12<br />
+</li>
+<li><a href="#arnold-press"><strong>Arnold press</strong></a> — 4 ×
+6–10<br />
+</li>
+<li><a href="#landmine-press"><strong>Half-kneeling landmine
+press</strong></a> — 3 × 8–12 each side<br />
+</li>
+<li><a href="#lateral-raise"><strong>Cable lateral raise</strong></a> —
+3 × 12–20<br />
+</li>
+<li><a href="#lateral-raise"><strong>Machine lateral raise / leaning
+dumbbell lateral raise</strong></a> — 2 × 12–20<br />
+</li>
+<li><a href="#scaption"><strong>Cable Y raise or cable scaption
+raise</strong></a> — 2 × 10–15<br />
+</li>
+<li><a href="#cable-punch"><strong>Cable punch</strong></a> — 2 ×
+12–15<br />
+</li>
+<li><a href="#prone-er"><strong>Prone ER 90/90</strong></a> — 2 ×
+12–15</li>
+</ol>
+<h3 id="session-6-posterior-chain-ql"><a href="#session-6">Session 6 —
+Posterior Chain + QL</a></h3>
+<ol type="1">
+<li><strong>Dead bug</strong> — 2 controlled sets<br />
+</li>
+<li><a href="#hinge"><strong>Romanian deadlift</strong></a> — top set
+5–8, then 3 × 6–10<br />
+</li>
+<li><strong>Hip thrust / glute bridge machine</strong> — 3 × 8–12<br />
+</li>
+<li><strong>Seated leg curl</strong> — 3 × 8–15<br />
+</li>
+<li><strong>45-degree back extension</strong> — 2 × 10–15<br />
+</li>
+<li><strong>Standing calf raise</strong> — 3 × 8–15<br />
+</li>
+<li><strong>Bird dog</strong> — 2 × 6–10 each side, with slow
+pauses<br />
+</li>
+<li><a href="#bear-crawl"><strong>Bear-crawl hold</strong></a> — 2
+controlled sets<br />
+</li>
+<li><a href="#carry"><strong>Suitcase carry</strong></a> — 2–3 carries
+each side</li>
+</ol>
+<h3 id="session-7-arm-specialization-scapular-control"><a
+href="#session-7">Session 7 — Arm Specialization + Scapular
+Control</a></h3>
+<ol type="1">
+<li><a href="#push-up-plus"><strong>Push-up plus on handles</strong></a>
+— 2 × 5–8, deliberately submaximal<br />
+</li>
+<li><strong>EZ-bar curl</strong> — 3 × 6–10<br />
+</li>
+<li><strong>Overhead cable triceps extension</strong> — 3 × 6–10<br />
+</li>
+<li><strong>Preacher curl</strong> — 3 × 8–12<br />
+</li>
+<li><strong>Cable pushdown</strong> — 3 × 8–12<br />
+</li>
+<li><strong>Hammer curl</strong> — 3 × 10–15<br />
+</li>
+<li><strong>Single-arm cross-body cable extension</strong> — 3 ×
+10–15<br />
+</li>
+<li><a href="#dynamic-hug"><strong>Dynamic hug / cable
+press-around</strong></a> — 2 × 12–15<br />
+</li>
+<li><a href="#side-lying-er"><strong>Side-lying external
+rotation</strong></a> — 2 × 12–15</li>
+</ol>
+<blockquote>
+<p><strong>Knee-sensitive Session 1:</strong> Omit movements 3 and 4 if
+they reproduce the sensitivity. Keep calves, tibialis, hip work, Pallof
+press, and side plank. Use the banded preparation only if it is
+comfortable.</p>
+</blockquote>
+<h2 id="session-details">Session details</h2>
+<p>Choose one option where alternatives are listed and keep it for a
+block of approximately <strong>6–8 cycles</strong>. Do not select a
+different variation every time merely for novelty.</p>
+<h3 id="session-1">Session 1 — Knee-Light Legs + QL</h3>
+<ol type="1">
+<li><strong>Band-above-knee squat preparation</strong> — 2 light
+sets<br />
+</li>
+<li><strong>Dead bug</strong> — 2 controlled sets<br />
+</li>
+<li><strong>Belt squat / hack squat / leg press / goblet squat</strong>
+— choose one, 3 × 8–12<br />
+</li>
+<li><strong>Reverse lunge / low step-up</strong> — choose one, 2 × 8–12
+each side<br />
+</li>
+<li><strong>Seated calf raise</strong> — 4 × 8–15<br />
+</li>
+<li><strong>Tibialis raise</strong> — 3 × 15–25<br />
+</li>
+<li><strong>Hip abductor machine or cable abduction</strong> — 3 ×
+15–25<br />
+</li>
+<li><strong>Hip adductor machine</strong> — 3 × 15–25<br />
+</li>
+<li><a href="#pallof-press"><strong>Pallof press</strong></a> — 2–3 ×
+10–12 each side<br />
+</li>
+<li><a href="#side-plank"><strong>Side plank</strong></a> — 2–3 × 20–40
+seconds each side</li>
+</ol>
+<p><strong>Why this order:</strong> The banded preparation rehearses
+knee tracking without meaningful fatigue, while the dead bug establishes
+trunk control before loaded lower-body work. There is only one main
+knee-dominant exercise and one modest unilateral exercise. Calves,
+tibialis, and hip work add lower-body volume without repeating another
+squat pattern. Pallof presses and side planks train anti-rotation and
+anti-lateral flexion after the leg work so the QL is not pre-fatigued
+before the loaded movements.</p>
+<p><strong>Serious lifting movements:</strong> 6<br />
+<strong>Dedicated rehab/control exposures:</strong> 4</p>
+<p><strong>Current knee-sensitive version:</strong> Omit movements 3 and
+4 if they reproduce the sensitivity. Keep the calves, tibialis, hip
+work, Pallof press, and side plank so this remains a real session and
+recovery spacer rather than being deleted from the cycle. Use the banded
+preparation only if it also feels comfortable. Because the location and
+cause of the knee sensitivity have not been diagnosed, this is load
+reduction rather than treatment for a presumed condition. Squatting,
+stairs, and running can all aggravate several different anterior-knee
+presentations, so treadmill and 4×4 work should also be judged by their
+symptom response.</p>
+<h3 id="session-2">Session 2 — Back Width + Minor Biceps</h3>
+<ol type="1">
+<li><a href="#wall-slide"><strong>Wall slide + lift-off</strong></a> — 2
+× 8–12<br />
+</li>
+<li><a href="#pulldown"><strong>Neutral-grip pull-up / assisted pull-up
+/ neutral-grip pulldown</strong></a> — top set 5–8, then 3 × 6–10<br />
+</li>
+<li><a href="#one-arm-pulldown"><strong>One-arm kneeling cable
+pulldown</strong></a> — 3 × 8–12 each side<br />
+</li>
+<li><a href="#straight-arm-pulldown"><strong>Straight-arm
+pulldown</strong></a> — 2 × 12–15<br />
+</li>
+<li><a href="#lat-row"><strong>High cable lat row toward the
+hip</strong></a> — 2 × 10–15 each side<br />
+</li>
+<li><strong>Bayesian cable curl</strong> — 2 × 10–15<br />
+</li>
+<li><strong>Prone Y</strong> — 2 × 8–12</li>
+</ol>
+<p><strong>Why this order:</strong> The wall slide rehearses upward
+rotation and posterior tilt before vertical pulling. The main pull is
+performed fresh. The unilateral pulldown adds side-to-side control and a
+different line of shoulder extension. The straight-arm pulldown trains
+loaded downward rotation and lat capacity without adding another
+elbow-flexion-heavy pull. The high cable lat row remains elbow-to-hip
+and lat-oriented rather than duplicating the horizontal thickness day.
+Biceps receive only a small direct exposure. The prone Y restores
+lower-trap and upward-rotation control after the lats have been heavily
+used.</p>
+<p><strong>Scapular job:</strong> upwardly rotated reach at the top,
+followed by controlled downward rotation and depression.<br />
+<strong>Serious lifting movements:</strong> 5<br />
+<strong>Dedicated rehab/control exposures:</strong> 3</p>
+<h3 id="session-3">Session 3 — Bench Strength + Chest + Minor
+Triceps</h3>
+<ol type="1">
+<li><a href="#push-up-plus"><strong>Push-up plus on handles</strong></a>
+— 2 × 5–8, deliberately submaximal<br />
+</li>
+<li><a href="#bench-press"><strong>Flat bench press</strong></a> — top
+set 3–5, then 3 × 5–8<br />
+</li>
+<li><a href="#bench-press"><strong>Close-grip paused bench
+press</strong></a> — 2 × 6–8<br />
+</li>
+<li><a href="#scapular-fixation"><strong>Cable fly / pec
+deck</strong></a> — 2 × 10–15<br />
+</li>
+<li><strong>Overhead cable triceps extension</strong> — 2 × 8–12<br />
+</li>
+<li><strong>Rope pushdown</strong> — 2 × 10–15<br />
+</li>
+<li><a href="#cable-punch"><strong>Cable punch</strong></a> — 2 ×
+12–15<br />
+</li>
+<li><a href="#face-pull"><strong>Face-pull to external
+rotation</strong></a> — 2 × 12–15</li>
+</ol>
+<p><strong>Why this order:</strong> The push-up plus provides
+low-fatigue serratus activation before benching. Bench is the primary
+strength goal and therefore comes first among the loaded movements.
+Close-grip paused bench adds bench-specific practice and triceps
+strength without creating a second chest day elsewhere in the cycle. The
+fly supplies a small amount of chest hypertrophy through a different
+action but is intentionally limited to two sets. Direct triceps work is
+modest because the dedicated arm day carries the main volume. Cable
+punches restore free protraction after the scapulae have spent the
+pressing block fixed against a bench. Face-pulls finish with retraction,
+posterior tilt, and external rotation.</p>
+<p><strong>Scapular job:</strong> protraction primer → fixation under
+bench load → restoration of free protraction and external
+rotation.<br />
+<strong>Serious lifting movements:</strong> 5<br />
+<strong>Dedicated rehab/control exposures:</strong> 3</p>
+<h3 id="session-4">Session 4 — Back Thickness + Rear Delts + Minor
+Biceps</h3>
+<ol type="1">
+<li><a href="#bear-crawl"><strong>Bear-crawl hold</strong></a> — 2
+controlled sets<br />
+</li>
+<li><a href="#rows"><strong>Chest-supported T-bar row / seal
+row</strong></a> — top set 5–8, then 3 × 6–10<br />
+</li>
+<li><a href="#rows"><strong>One-arm cable row</strong></a> — 3 × 8–12
+each side<br />
+</li>
+<li><a href="#reverse-fly"><strong>Reverse pec deck / rear-delt cable
+fly</strong></a> — 3 × 12–20<br />
+</li>
+<li><a href="#kelso-shrug"><strong>Kelso shrug or chest-supported
+straight-arm retraction shrug</strong></a> — 2 × 10–15<br />
+</li>
+<li><strong>Hammer curl</strong> — 2 × 10–15<br />
+</li>
+<li><a href="#retraction"><strong>Prone T + prone W</strong></a> — 2
+sets of each</li>
+</ol>
+<p><strong>Why this order:</strong> The bear-crawl hold establishes a
+broad, flush scapular position rather than beginning with the blades
+already clamped together. The heavy chest-supported row builds thickness
+without loading the QL or lower back after the prior sessions. The
+unilateral cable row adds independent scapular excursion. The reverse
+fly trains horizontal abduction instead of adding a third conventional
+row. The Kelso shrug isolates loaded retraction without elbow flexion.
+Biceps receive a small neutral-grip exposure. Prone T and W finish with
+controlled horizontal abduction, posterior tilt, and external rotation
+after the heavy retractors have accumulated fatigue.</p>
+<p><strong>Scapular job:</strong> protraction into the stretch →
+retraction during the pull → horizontal abduction and external
+rotation.<br />
+<strong>Serious lifting movements:</strong> 5<br />
+<strong>Dedicated rehab/control exposures:</strong> 3</p>
+<h3 id="session-5">Session 5 — Delts + Serratus + Loaded Upward
+Rotation</h3>
+<ol type="1">
+<li><a href="#wall-slide"><strong>Wall slide + lift-off</strong></a> — 2
+× 8–12<br />
+</li>
+<li><a href="#arnold-press"><strong>Arnold press</strong></a> — 4 ×
+6–10<br />
+</li>
+<li><a href="#landmine-press"><strong>Half-kneeling landmine
+press</strong></a> — 3 × 8–12 each side<br />
+</li>
+<li><a href="#lateral-raise"><strong>Cable lateral raise</strong></a> —
+3 × 12–20<br />
+</li>
+<li><a href="#lateral-raise"><strong>Machine lateral raise / leaning
+dumbbell lateral raise</strong></a> — 2 × 12–20<br />
+</li>
+<li><a href="#scaption"><strong>Cable Y raise or cable scaption
+raise</strong></a> — 2 × 10–15<br />
+</li>
+<li><a href="#cable-punch"><strong>Cable punch</strong></a> — 2 ×
+12–15<br />
+</li>
+<li><a href="#prone-er"><strong>Prone ER 90/90</strong></a> — 2 ×
+12–15</li>
+</ol>
+<p><strong>Why this order:</strong> The wall slide directly rehearses
+the upward rotation and posterior tilt required by the loaded pressing.
+Arnold press is the primary movement and is performed fresh. The
+landmine press uses a forward-upward path with substantial protraction
+and upward rotation. The two lateral-raise patterns give the middle
+deltoid useful volume through different resistance curves without
+turning another day into general pressing. The Y/scaption raise
+integrates the lower trapezius and scapular plane. The cable punch
+reinforces serratus control after shoulder fatigue. Prone external
+rotation is last because pre-fatiguing the cuff before Arnold and
+landmine pressing would reduce the quality of the loaded work.</p>
+<p><strong>Scapular job:</strong> upward rotation, external rotation,
+posterior tilt, and controlled elevation under load.<br />
+<strong>Serious lifting movements:</strong> 5<br />
+<strong>Dedicated rehab/control exposures:</strong> 3</p>
+<h3 id="session-6">Session 6 — Posterior Chain + QL</h3>
+<ol type="1">
+<li><strong>Dead bug</strong> — 2 controlled sets<br />
+</li>
+<li><a href="#hinge"><strong>Romanian deadlift</strong></a> — top set
+5–8, then 3 × 6–10<br />
+</li>
+<li><strong>Hip thrust / glute bridge machine</strong> — 3 × 8–12<br />
+</li>
+<li><strong>Seated leg curl</strong> — 3 × 8–15<br />
+</li>
+<li><strong>45-degree back extension</strong> — 2 × 10–15<br />
+</li>
+<li><strong>Standing calf raise</strong> — 3 × 8–15<br />
+</li>
+<li><strong>Bird dog</strong> — 2 × 6–10 each side, with slow
+pauses<br />
+</li>
+<li><a href="#bear-crawl"><strong>Bear-crawl hold</strong></a> — 2
+controlled sets<br />
+</li>
+<li><a href="#carry"><strong>Suitcase carry</strong></a> — 2–3 carries
+each side</li>
+</ol>
+<p><strong>Why this order:</strong> The dead bug establishes trunk
+positioning without fatiguing the QL. The RDL is the primary hinge and
+comes first. Hip thrusts train hip extension without repeating the
+hinge. Leg curls isolate knee flexion, while back extensions build
+posterior-trunk endurance at a controlled load. Bird dogs and bear-crawl
+holds train trunk and scapular control after the heavy lifting. Suitcase
+carries are last because they are the strongest direct
+anti-lateral-flexion demand; placing them earlier would pre-fatigue the
+QL before RDLs.</p>
+<p>Use the RDL as the stable anchor for the block. A conventional
+deadlift can replace it in a later block, but do not perform both as
+hard primary movements in the same session.</p>
+<p><strong>Serious lifting movements:</strong> 5<br />
+<strong>Dedicated rehab/control exposures:</strong> 4</p>
+<h3 id="session-7">Session 7 — Arm Specialization + Scapular
+Control</h3>
+<ol type="1">
+<li><a href="#push-up-plus"><strong>Push-up plus on handles</strong></a>
+— 2 × 5–8, deliberately submaximal<br />
+</li>
+<li><strong>EZ-bar curl</strong> — 3 × 6–10<br />
+</li>
+<li><strong>Overhead cable triceps extension</strong> — 3 × 6–10<br />
+</li>
+<li><strong>Preacher curl</strong> — 3 × 8–12<br />
+</li>
+<li><strong>Cable pushdown</strong> — 3 × 8–12<br />
+</li>
+<li><strong>Hammer curl</strong> — 3 × 10–15<br />
+</li>
+<li><strong>Single-arm cross-body cable extension</strong> — 3 ×
+10–15<br />
+</li>
+<li><a href="#dynamic-hug"><strong>Dynamic hug / cable
+press-around</strong></a> — 2 × 12–15<br />
+</li>
+<li><a href="#side-lying-er"><strong>Side-lying external
+rotation</strong></a> — 2 × 12–15</li>
+</ol>
+<p><strong>Why this order:</strong> The push-up plus establishes
+serratus control but remains too easy to reduce arm performance. Biceps
+and triceps are then alternated so each receives local recovery while
+the other works. The first pair uses the heaviest loading, the second
+pair supplies stable mid-range work, and the third pair emphasizes the
+brachialis/brachioradialis and a different triceps line. The dynamic hug
+restores active protraction after the arm work, and side-lying external
+rotation finishes with low-fatigue cuff control.</p>
+<p>This is the only high-volume direct arm session. It provides nine
+hard sets for biceps and nine for triceps. The minor arm work elsewhere
+adds four biceps sets and four triceps-isolation sets, plus two
+close-grip bench sets.</p>
+<p><strong>Serious lifting movements:</strong> 6<br />
+<strong>Dedicated rehab/control exposures:</strong> 3</p>
+<p>After Session 7, return to Session 1. That places the knee-light
+lower session between the heavy arm day and the next back-width session,
+preventing the biceps from being trained hard on consecutive
+sessions.</p>
+<hr />
+<h2 id="progression">Progression and effort</h2>
+<p><strong>Primary compounds:</strong> Use a top set at approximately
+RPE 8–9, followed by back-off work around RPE 7–8. Add load when all
+back-off sets reach the top of the prescribed range with stable
+technique.</p>
+<p><strong>Bench:</strong> When the top set reaches 5 clean repetitions
+and the three back-off sets reach 8, add 2.5–5 pounds. Microplates are
+reasonable as the bar approaches 225. The close-grip paused bench should
+remain subordinate to the regular bench rather than becoming a second
+maximal lift.</p>
+<p><strong>Accessories:</strong> Most sets should finish with
+approximately 0–2 clean repetitions in reserve. The final set of stable
+curls, pushdowns, lateral raises, calf raises, and machines may approach
+failure when technique remains intact.</p>
+<p><strong>Rehabilitation and control work:</strong> Keep approximately
+2–4 clean repetitions in reserve. Do not grind, chase load, or continue
+once the scapular movement becomes less controlled. Failure is not
+required for strength or hypertrophy, and avoiding it is particularly
+sensible where the purpose is motor control.</p>
+<p><strong>QL work:</strong> Progress suitcase carries through cleaner
+posture, distance, and then load. Progress side planks through longer
+controlled holds before adding weight. Neither should create the
+familiar grabbing or spasm pattern.</p>
+<p><strong>Knee work:</strong> Reintroduce only one loaded knee pattern
+first. Restore the unilateral movement after the first pattern is
+tolerated across multiple exposures. Swelling, locking, giving way,
+progressively worsening pain, or pain that does not settle with reduced
+loading warrants assessment rather than continued experimentation.</p>
+<p>Your treadmill and 4×4 work remain outside the written program, but
+they still contribute to quadriceps, calf, and knee loading. During the
+current sensitive period, their dose should be adjusted by the same
+symptom response used for the knee-dominant lifting.</p>
+<p><a href="#cheat-sheet">Back to the cheat sheet</a></p>
+<h2 id="exercise-notes">Exercise notes</h2>
+<h3 id="quick-lookup">Quick lookup</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Exercise / search tag</th>
+<th>Main scapular job</th>
+<th>Best cue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#arnold-press">Arnold press</a></td>
+<td>Upward rotation + posterior tilt + external rotation</td>
+<td>Bottom point around and up; inner edge flat</td>
+</tr>
+<tr>
+<td><a href="#push-up-plus">Push-up plus</a></td>
+<td>Protraction, serratus stabilization</td>
+<td>Wrap the blades around the ribs</td>
+</tr>
+<tr>
+<td><a href="#cable-punch">Cable punch</a></td>
+<td>Protraction</td>
+<td>Reach from the shoulder blade</td>
+</tr>
+<tr>
+<td><a href="#wall-slide">Wall slide + lift-off</a></td>
+<td>Upward rotation, posterior tilt</td>
+<td>Slide up while pushing the wall away</td>
+</tr>
+<tr>
+<td><a href="#upward-rotation">Overhead/DB press</a></td>
+<td>Upward rotation</td>
+<td>Reach tall; do not pin the blades down</td>
+</tr>
+<tr>
+<td><a href="#landmine-press">Landmine press</a></td>
+<td>Upward rotation + protraction</td>
+<td>Follow the bar and reach through it</td>
+</tr>
+<tr>
+<td><a href="#lateral-raise">Lateral raise</a></td>
+<td>Scaption + upward rotation</td>
+<td>Slightly forward, reach outward</td>
+</tr>
+<tr>
+<td><a href="#prone-y">Prone Y</a></td>
+<td>Upward rotation + posterior tilt</td>
+<td>Thumbs up, reach long</td>
+</tr>
+<tr>
+<td><a href="#face-pull">Face-pull to ER</a></td>
+<td>Retraction + external rotation</td>
+<td>Pull, then rotate the upper arms</td>
+</tr>
+<tr>
+<td><a href="#prone-er">Prone ER 90/90</a></td>
+<td>External rotation</td>
+<td>Elbow stays planted; forearm rotates</td>
+</tr>
+<tr>
+<td><a href="#rows">Rows</a></td>
+<td>Retraction</td>
+<td>Let the blade glide forward, then back</td>
+</tr>
+<tr>
+<td><a href="#reverse-fly">Reverse fly/pec deck</a></td>
+<td>Horizontal abduction</td>
+<td>Move arms wide; do not over-pinch</td>
+</tr>
+<tr>
+<td><a href="#pulldown">Pulldown</a></td>
+<td>Depression/downward rotation</td>
+<td>Elbows down; shoulders follow naturally</td>
+</tr>
+<tr>
+<td><a href="#straight-arm-pulldown">Straight-arm pulldown</a></td>
+<td>Depression/downward rotation</td>
+<td>Sweep arms down without rib flare</td>
+</tr>
+<tr>
+<td><a href="#depression-downward-rotation">Dip</a></td>
+<td>Depression and stabilization</td>
+<td>Tall chest, long neck, controlled depth</td>
+</tr>
+<tr>
+<td><a href="#bench-press">Bench press</a></td>
+<td>Scapular fixation</td>
+<td>Stable, not violently back and down</td>
+</tr>
+<tr>
+<td><a href="#bear-crawl">Bear-crawl hold</a></td>
+<td>Serratus stabilization</td>
+<td>Push the floor away</td>
+</tr>
+<tr>
+<td><a href="#carry">Farmer/suitcase carry</a></td>
+<td>Isometric stabilization</td>
+<td>Broad, flush, and quiet</td>
+</tr>
+<tr>
+<td><a href="#hinge">Deadlift/RDL</a></td>
+<td>Isometric stabilization</td>
+<td>Long arms; no retraction or shrug</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Use the linked exercise names in the cheat sheet and quick lookup to
+jump directly to the relevant cue.</p>
+<p>Do not hold the shoulder blades “back and down” during every
+exercise. When reaching, the scapula should wrap forward around the
+ribs. During arm elevation, it should upwardly rotate and posteriorly
+tilt while generally moving toward external rotation. During rows it
+should glide backward and then forward again on the return. During
+carries and heavy holds it should remain broad and controlled rather
+than maximally pinched together. Fatigue can reduce posterior tilt and
+increase internal rotation, which is one reason control work should not
+be ground into failure.</p>
+<p>The <strong>inferior angle</strong> is the bottom point of the
+shoulder blade. The <strong>medial border</strong> is the inner edge
+nearest the spine. The <strong>acromion</strong> is the bony roof at the
+top and outside of the shoulder. The most useful general serratus cue
+is:</p>
+<blockquote>
+<p><strong>Make the shoulder blade wrap around the ribs while reaching
+long.</strong></p>
+</blockquote>
+<h3 id="external-rotation">External rotation</h3>
+<p>Glenohumeral external rotation means that the upper-arm bone rotates
+outward inside the shoulder socket. With the elbow beside the torso, the
+forearm moves away from the stomach. In a 90/90 position, the forearm
+rotates backward while the elbow remains approximately fixed.</p>
+<p>Rotate the upper arm rather than merely turning the hand or wrist.
+Keep the front of the shoulder from rolling forward, maintain a stacked
+rib cage, and allow modest scapular retraction and posterior tilt
+without squeezing the shoulder blades together as hard as possible.</p>
+<p>The useful general cue is:</p>
+<blockquote>
+<p><strong>Turn the inside of the elbow forward while the shoulder
+remains centered.</strong></p>
+</blockquote>
+<ol type="1">
+<li><p><span id="face-pull"></span><strong>Face-pull to external
+rotation.</strong> Pull first, allowing the scapulae to retract without
+forcing them downward. Then rotate the upper arms outward. Keep the
+wrists quiet, the fronts of the shoulders centered, and the scapulae
+gently posteriorly tilted rather than aggressively pinched.</p></li>
+<li><p><span id="prone-er"></span><strong>Prone ER 90/90.</strong> Keep
+the elbow approximately fixed while the upper arm rotates in the socket.
+Maintain a gently stable, posteriorly tilted scapula and stop before the
+front of the shoulder rolls forward or the torso arches.</p></li>
+<li><p><span id="side-lying-er"></span><strong>Side-lying external
+rotation.</strong> Keep the elbow against the side and rotate the upper
+arm without rolling the torso backward. The scapula should remain
+quietly supported against the ribs rather than being forcefully
+retracted. Stop when further range would require the shoulder to tip
+forward or the torso to rotate.</p></li>
+<li><p><span id="prone-w"></span><strong>Prone W.</strong> Rotate the
+upper arms outward as the elbows travel slightly backward. Keep the neck
+long and think of the upper scapula tipping backward rather than
+dragging the entire blade toward the back pocket.</p></li>
+<li><p><strong>Arnold press.</strong> The dumbbell and upper-arm
+rotation is glenohumeral rotation, while the scapula simultaneously
+upwardly rotates, externally rotates, and posteriorly tilts. The full
+scapular sequence appears under <a href="#arnold-press">Arnold
+press</a>.</p></li>
+</ol>
+<p>Common errors are moving the hand without truly rotating the upper
+arm, allowing the elbow to drift backward to create false range, arching
+the torso, violently retracting the scapulae, and continuing after the
+front of the shoulder loses its centered position.</p>
+<h3 id="horizontal-abduction">Horizontal abduction</h3>
+<p>Horizontal abduction means that the upper arm moves outward and
+backward while raised away from the side, as in a reverse fly. It is an
+upper-arm movement that normally occurs alongside scapular retraction,
+but they are not identical.</p>
+<p>Move the upper arms wide and backward while allowing the scapulae to
+glide together naturally. Keep the fronts of the shoulders from rolling
+forward and stop before additional range comes from thrusting the chest
+or arching the spine.</p>
+<p>The useful cue is:</p>
+<blockquote>
+<p><strong>Arms wide; let the blades glide together instead of crushing
+them together.</strong></p>
+</blockquote>
+<ol type="1">
+<li><p><span id="reverse-fly"></span><strong>Reverse pec deck or
+rear-delt cable fly.</strong> Move through the upper arms while the
+scapulae retract naturally. Stop when the arms reach the torso or move
+only slightly behind it. Continuing farther usually turns the movement
+into chest thrusting or forward glide of the humeral head.</p></li>
+<li><p><span id="prone-t"></span><strong>Prone T.</strong> Reach the
+arms long and wide while allowing controlled scapular retraction. Keep
+the shoulders away from the ears and avoid shortening the movement into
+a hard shoulder-blade pinch.</p></li>
+<li><p><strong>Face-pull.</strong> Pull toward the upper face while the
+upper arms move outward and backward. Use the full sequence at <a
+href="#face-pull">face-pull</a>.</p></li>
+</ol>
+<p>Common errors are fully retracting before the arms begin moving,
+throwing the chest forward, pulling so far backward that the humeral
+heads move forward in their sockets, shrugging at the finish, and
+turning every reverse fly into a heavy row.</p>
+<h3 id="scapular-stabilization">Isometric scapular stabilization</h3>
+<p>Isometric stabilization means keeping the scapula controlled against
+the rib cage while another part of the body moves or carries load. The
+goal is not to freeze the blade rigidly. It is to prevent unwanted
+winging, collapsing, shrugging, or twisting.</p>
+<p>Keep the collarbones broad, the neck long, and the medial border
+reasonably flush with the ribs. Do not aggressively squeeze the shoulder
+blades together.</p>
+<p>The useful cue is:</p>
+<blockquote>
+<p><strong>Broad, flush, and quiet.</strong></p>
+</blockquote>
+<ol type="1">
+<li><p><span id="bear-crawl"></span><strong>Bear-crawl hold.</strong>
+Push the floor away until the upper back becomes broad. Keep the chest
+from sinking between the shoulders and maintain the scapulae flush
+against the ribs while the knees hover.</p></li>
+<li><p><span id="carry"></span><strong>Farmer or suitcase
+carry.</strong> Keep the loaded scapula broad and controlled rather than
+hiking it toward the ear or forcibly dragging it downward. During a
+suitcase carry, keep the torso vertical rather than leaning away from
+the weight.</p></li>
+<li><p><span id="hinge"></span><strong>Deadlift or Romanian
+deadlift.</strong> Keep the arms long and the scapulae broad. Use enough
+lat tension to connect the upper arms to the torso, but do not retract
+the shoulder blades before pulling or shrug them at lockout.</p></li>
+<li><p><span id="pallof-press"></span><strong>Pallof press.</strong> As
+the hands travel away from the chest, allow controlled scapular
+protraction while both blades remain flush. Resist torso rotation
+without pulling the shoulders backward.</p></li>
+<li><p><span id="side-plank"></span><strong>Side plank.</strong> Push
+the supporting forearm into the floor so the supporting shoulder does
+not collapse. Keep the supporting scapula broad and flush while the
+trunk remains straight; do not hang passively from the shoulder
+joint.</p></li>
+<li><p><span id="squat-setup"></span><strong>Squat setup.</strong>
+Create enough upper-back tension to support the bar and torso position.
+Do not confuse bracing with aggressively depressing both scapulae or
+forcing the shoulders into painful retraction.</p></li>
+</ol>
+<h3 id="posterior-tilt">Posterior tilt</h3>
+<p>Posterior tilt means that the top of the shoulder blade tips backward
+while the inferior angle remains controlled against the rib cage.
+Anterior tilt is the opposite: the top tips forward while the lower edge
+may become more prominent behind you.</p>
+<p>Posterior tilt is difficult to isolate consciously, so use the
+landmarks. Keep the inferior angle attached to the ribs while the upper
+edge and acromion roll backward. Reach upward or forward without
+allowing the front of the shoulder to dump forward, and keep the ribs
+stacked rather than manufacturing range through spinal extension.</p>
+<p>The clearest cue is:</p>
+<blockquote>
+<p><strong>Top edge back; bottom point stays attached.</strong></p>
+</blockquote>
+<p>Serratus fatigue has been shown to reduce posterior tilt and increase
+scapular internal rotation during higher-angle arm elevation, supporting
+the emphasis on controlled serratus endurance rather than merely
+producing maximal force.</p>
+<ol type="1">
+<li><p><span id="wall-slide"></span><strong>Wall slide +
+lift-off.</strong> As the arms rise, move the inferior angles outward
+and upward while pressing lightly into the wall. During the lift-off,
+keep the inferior angles against the ribs and tip the upper scapulae
+backward rather than arching the torso away from the wall.</p></li>
+<li><p><strong>Arnold press.</strong> Keep the inferior angle wrapped
+against the ribs while the upper edge rolls backward near the top. See
+<a href="#arnold-press">Arnold press</a>.</p></li>
+<li><p><span id="landmine-press"></span><strong>Landmine press.</strong>
+As the arm reaches forward and upward, allow the lower scapula to move
+outward around the ribs while the upper blade tips backward. Do not
+obtain the finish by flaring the ribs.</p></li>
+<li><p><span id="prone-y"></span><strong>Prone or cable Y
+raise.</strong> Reach the fingertips long while the inferior angles
+rotate outward and the upper scapulae tip backward. Stop before the
+movement becomes spinal extension or a neck-dominant shrug.</p></li>
+<li><p><strong>Face-pull to external rotation.</strong> Use <a
+href="#face-pull">face-pull</a>.</p></li>
+</ol>
+<p>Common errors are flaring the ribs to imitate overhead range,
+allowing the front of the shoulder to spill forward, pulling the blades
+downward instead of allowing upward rotation, and attempting to create
+posterior tilt by merely squeezing the shoulder blades together.</p>
+<h3 id="protraction">Protraction</h3>
+<p>Protraction means that the scapula glides forward and outward around
+the rib cage, away from the spine. It is the shoulder-blade action used
+during reaching and punching. It is not the same as rounding the entire
+upper back.</p>
+<p>Reach long through the arm while allowing the scapula to travel
+around the ribs. Spread the shoulder blades without shrugging and create
+the final part of the movement from the scapula rather than additional
+elbow extension or spinal flexion.</p>
+<p>The useful cue is:</p>
+<blockquote>
+<p><strong>Wrap the scapula around the ribs.</strong></p>
+</blockquote>
+<p>Push-up-plus and punching or hugging patterns produce substantial
+serratus activity, particularly when protraction is combined with an
+upwardly rotated scapular position.</p>
+<ol type="1">
+<li><p><span id="push-up-plus"></span><strong>Push-up plus.</strong>
+Keep the elbows straight during the plus portion and push the floor or
+handles away until the upper back becomes broad. The medial borders
+should remain controlled while the blades wrap around the ribs. Do not
+create the motion by rounding the lower back or tucking the
+head.</p></li>
+<li><p><span id="cable-punch"></span><strong>Cable punch.</strong> Begin
+with the scapula neutral rather than pinned backward. Reach the hand
+forward while moving the entire blade around the rib cage, keeping the
+medial border flush and the torso still. The final inch should come from
+scapular protraction.</p></li>
+<li><p><span id="dynamic-hug"></span><strong>Dynamic hug or cable
+press-around.</strong> Begin with the arms open and the scapulae allowed
+to retract modestly. As the arms arc forward, let the blades protract
+and wrap around the ribs. Finish by reaching around the torso rather
+than simply bringing the hands together or rounding the spine.</p></li>
+<li><p><strong>Bear-crawl hold.</strong> Use <a
+href="#bear-crawl">bear-crawl hold</a>.</p></li>
+<li><p><strong>Landmine press.</strong> Use <a
+href="#landmine-press">landmine press</a>.</p></li>
+</ol>
+<p>Flat bench and close-grip bench are not meaningful free-protraction
+exercises because the bench restricts scapular travel.</p>
+<h3 id="retraction">Retraction</h3>
+<p>Retraction means that the scapula glides toward the spine. It occurs
+during rows, face-pulls, reverse flies, and retraction shrugs.
+Retraction should usually be followed by controlled protraction as the
+weight returns.</p>
+<p>Let the scapula glide forward during the eccentric, then allow the
+elbow and blade to move backward together during the pull. Do not throw
+the chest forward or pull the blade maximally downward.</p>
+<p>The useful cue is:</p>
+<blockquote>
+<p><strong>Let the blade glide back; do not clamp it down.</strong></p>
+</blockquote>
+<ol type="1">
+<li><p><span id="rows"></span><strong>Rows.</strong> At the stretched
+position, allow the scapula to glide forward without losing trunk
+position. During the pull, move the elbow and scapula backward together.
+Stop before the humeral head rolls forward or the torso twists, then
+deliberately let the blade move forward again during the
+return.</p></li>
+<li><p><span id="kelso-shrug"></span><strong>Kelso shrug.</strong>
+Remain chest-supported with the arms straight or nearly straight.
+Retract the scapulae without bending the elbows, lifting the chest from
+the pad, or dragging the shoulders downward. Let the blades protract
+again under control between repetitions.</p></li>
+<li><p><strong>Reverse pec deck or rear-delt fly.</strong> Use <a
+href="#reverse-fly">reverse fly</a>.</p></li>
+<li><p><strong>Face-pull to external rotation.</strong> Use <a
+href="#face-pull">face-pull</a>.</p></li>
+<li><p><strong>Prone T or W.</strong> Use <a href="#prone-t">prone T</a>
+or <a href="#prone-w">prone W</a>.</p></li>
+</ol>
+<p>Common errors are holding the blades permanently retracted, pulling
+the scapula completely backward before the arm moves, twisting the torso
+to create additional range, and mistaking hard depression for
+retraction.</p>
+<h3 id="depression-downward-rotation">Scapular depression and downward
+rotation</h3>
+<p>Depression means that the scapula moves downward on the rib cage.
+Downward rotation means that the inferior angle moves back toward the
+spine as the arm lowers. These actions occur during pulldowns,
+straight-arm pulldowns, carries, and the return from overhead positions.
+They should not become a permanent “shoulders down” posture.</p>
+<p>Allow the scapula to rise and upwardly rotate at the top of a
+pulldown, then let it depress and downwardly rotate as the arm descends.
+Keep the neck long without violently dragging the shoulders toward the
+back pockets.</p>
+<ol type="1">
+<li><p><span id="pulldown"></span><strong>Neutral-grip pulldown or
+pull-up.</strong> Begin from a controlled long reach rather than a
+pre-depressed shoulder position. As the elbows descend, let the blades
+downwardly rotate and depress naturally. Do not initiate by jerking the
+shoulders downward while the elbows remain straight.</p></li>
+<li><p><span id="one-arm-pulldown"></span><strong>One-arm kneeling cable
+pulldown.</strong> At the top, let the scapula rotate upward and travel
+slightly around the rib cage. Pull the elbow toward the side of the
+torso while the blade downwardly rotates. Keep the torso from leaning or
+twisting to manufacture range.</p></li>
+<li><p><span id="straight-arm-pulldown"></span><strong>Straight-arm
+pulldown.</strong> Begin with the scapulae allowed to upwardly rotate.
+As the arms sweep toward the thighs, let the inferior angles travel
+downward and inward while the blades remain flush. Do not create range
+through lumbar extension.</p></li>
+<li><p><span id="lat-row"></span><strong>High cable lat row to
+hip.</strong> Reach forward and upward enough for the scapula to
+protract and upwardly rotate. Then pull the elbow toward the hip while
+the scapula moves down and back without twisting the torso.</p></li>
+<li><p><strong>Carries and hinges.</strong> Use <a
+href="#carry">carry</a> and <a href="#hinge">hinge</a>.</p></li>
+</ol>
+<h3 id="scapular-fixation">Scapular fixation during bench-supported
+pressing</h3>
+<p>Fixation means that the scapula remains relatively stable against a
+surface while the upper arm moves. During bench pressing, the bench
+restricts normal scapular travel, making the movement fundamentally
+different from a push-up, cable punch, or unsupported overhead
+press.</p>
+<p>Establish stable upper-back contact with mild retraction rather than
+an extreme shoulder-blade pinch. Keep the fronts of the shoulders from
+rolling forward at the bottom, but do not force the blades aggressively
+downward.</p>
+<p>The useful cue is:</p>
+<blockquote>
+<p><strong>Stable against the bench, not crushed into it.</strong></p>
+</blockquote>
+<ol type="1">
+<li><p><span id="bench-press"></span><strong>Flat bench or close-grip
+paused bench.</strong> Maintain stable scapular contact throughout the
+repetition. Do not attempt a dramatic push-up-plus motion at lockout
+because the bench physically prevents normal protraction. At the bottom,
+keep the shoulder centered rather than allowing the humeral head to roll
+forward.</p></li>
+<li><p><strong>Cable fly or pec deck.</strong> When the torso is
+supported by a pad, use modest stability rather than trying to force a
+large reach. If the setup allows free scapular movement, permit
+controlled protraction as the arms come forward.</p></li>
+</ol>
+<p>The main error is applying the push-up-plus cue to a movement in
+which the bench physically prevents normal scapular motion.</p>
+<h3 id="scaption-movement">Scaption</h3>
+<p>Scaption means raising the arm in the scapular plane, slightly
+forward of directly out to the side. It is approximately midway between
+a strict front raise and a strict lateral raise.</p>
+<p>Raise the arm in the direction the shoulder blade faces, usually
+around 20–30 degrees forward of the torso. Allow the scapula to upwardly
+rotate and avoid pulling the shoulder downward as the arm rises. A
+neutral grip or slight thumbs-up position is generally easier to control
+than internal rotation.</p>
+<ol type="1">
+<li><p><span id="lateral-raise"></span><strong>Cable or dumbbell lateral
+raise.</strong> Raise the arms slightly forward of directly sideways.
+Let the inferior angles rotate outward and upward while the medial
+borders remain flush. A small amount of natural elevation is
+appropriate; a pure shrug is not.</p></li>
+<li><p><span id="scaption"></span><strong>Cable scaption or Y
+raise.</strong> Raise the arms on a forward diagonal rather than
+directly sideways. Reach outward and upward while the inferior angles
+rotate around the ribs. Stop before the ribs flare or the neck becomes
+the primary mover.</p></li>
+<li><p><strong>Arnold press.</strong> Use <a href="#arnold-press">Arnold
+press</a>.</p></li>
+<li><p><strong>Wall slide.</strong> Use <a href="#wall-slide">wall
+slide</a>.</p></li>
+<li><p><strong>Landmine press.</strong> Use <a
+href="#landmine-press">landmine press</a>.</p></li>
+</ol>
+<p>Wall slides can elicit meaningful serratus activity at and above 90
+degrees of arm elevation, making them useful practice for overhead
+scapular control rather than only low-angle protraction.</p>
+<p>Common errors are raising the arms directly sideways while internally
+rotating them, forcing the shoulders down throughout elevation, and
+arching the torso to create additional range.</p>
+<h3 id="upward-rotation">Upward rotation</h3>
+<p>Upward rotation means that the inferior angle moves outward and
+upward around the ribs, turning the shoulder socket upward as the arm
+rises. Serratus anterior works with the trapezius to produce this
+motion. Upper-trapezius activity is not inherently wrong; the problem is
+a pure shoulder hike without sufficient movement of the inferior
+angle.</p>
+<p>Do not merely think “lift the shoulder.” Track the inferior angle. It
+should travel away from the spine, around the side of the rib cage, and
+upward toward the armpit. The medial border should remain reasonably
+flush, the socket should turn upward, and the upper scapula should
+posteriorly tilt near the top.</p>
+<p>The useful general cue is:</p>
+<blockquote>
+<p><strong>Move the bottom point around and up, not merely the whole
+shoulder toward the ear.</strong></p>
+</blockquote>
+<h4 id="arnold-press">Arnold press</h4>
+<p>During the lower portion, keep the scapula broad and flat against the
+ribs rather than deliberately retracting it.</p>
+<p>As the arm begins to rise, move the inferior angle away from the
+spine and around the rib cage. Through the middle of the range, continue
+sweeping that bottom point outward and upward toward the armpit. This is
+the portion most likely to be missed when the arm moves but the scapula
+remains behind.</p>
+<p>Scapular external rotation occurs at the same time. The socket side
+of the blade wraps forward around the ribs while the medial border
+becomes flatter against the thorax. This is separate from rotating the
+dumbbell or upper-arm bone.</p>
+<p>Near the top, keep the inferior angle wrapped outward and attached to
+the ribs while the upper edge and acromion roll backward into posterior
+tilt. Allow the entire scapula to rise slightly, but only alongside
+continued outward rotation of the inferior angle. If the shoulder moves
+toward the ear while the inferior angle remains near the spine, that is
+predominantly a shrug rather than useful upward rotation.</p>
+<p>During the descent, reverse the same path gradually. The inferior
+angle travels downward and then inward while the medial border remains
+controlled against the rib cage. Do not abruptly clamp the scapula
+backward as soon as the dumbbell passes eye level.</p>
+<p>The complete cue is:</p>
+<blockquote>
+<p><strong>Bottom point around and up; inner edge flat; top edge rolls
+back.</strong></p>
+</blockquote>
+<h4 id="other-upward-rotation-movements">Other upward-rotation
+movements</h4>
+<ol type="1">
+<li><p><strong>Wall slide + lift-off.</strong> Use <a
+href="#wall-slide">wall slide</a>.</p></li>
+<li><p><strong>Landmine press.</strong> Use <a
+href="#landmine-press">landmine press</a>.</p></li>
+<li><p><strong>Lateral raise.</strong> Use <a
+href="#lateral-raise">lateral raise</a>.</p></li>
+<li><p><strong>Prone or cable Y raise.</strong> Use <a
+href="#prone-y">prone Y</a> or <a
+href="#scaption">scaption</a>.</p></li>
+<li><p><strong>Pulldown top position.</strong> At the top, permit upward
+rotation before reversing into the pull; do not keep the blades
+permanently depressed.</p></li>
+</ol>
+<p>Common errors are keeping the blades “back and down,” creating only a
+neck-dominant shrug, allowing the medial border to wing, and using rib
+flare or spinal extension instead of scapular rotation.</p>
+<p><a href="#cheat-sheet">Back to the cheat sheet</a></p>
+<h2 id="rationale">Program rationale and audit</h2>
+<h3 id="why-the-program-is-structured-this-way">Why the program is
+structured this way</h3>
+<p>Your priorities are deliberately unequal:</p>
+<ul>
+<li><strong>High priority:</strong> scapular control, back development,
+arms, and the QL/trunk weak spot.</li>
+<li><strong>Moderate priority:</strong> legs, with conservative knee
+loading and more substantial posterior-chain work.</li>
+<li><strong>Specific strength goal:</strong> progress the bench from
+approximately 195 pounds toward 225.</li>
+<li><strong>Lower priority:</strong> additional chest hypertrophy,
+because your chest is already comparatively developed.</li>
+<li><strong>Separate conditioning:</strong> treadmill or 4×4 work
+performed as desired, but still counted mentally as lower-body
+loading.</li>
+</ul>
+<p>The seven sessions therefore have seven mechanically different
+jobs:</p>
+<ol type="1">
+<li>Knee-light lower body and QL.</li>
+<li>Back width and vertical pulling.</li>
+<li>Bench strength, chest, and triceps.</li>
+<li>Back thickness and horizontal pulling.</li>
+<li>Delts and loaded upward rotation.</li>
+<li>Posterior chain and QL.</li>
+<li>Direct arm specialization.</li>
+</ol>
+<p>The scapular rehabilitation is not treated as an identical circuit
+pasted onto every workout. Each upper session teaches the scapula to do
+the job that belongs to that session:</p>
+<ul>
+<li>Vertical pulling teaches an upwardly rotated reach at the top
+followed by controlled depression and downward rotation.</li>
+<li>Bench pressing teaches stable scapular fixation, bracketed by free
+protraction before and after pressing.</li>
+<li>Horizontal pulling teaches controlled protraction into the stretch,
+retraction during the pull, and horizontal abduction.</li>
+<li>Shoulder pressing teaches upward rotation, external rotation,
+posterior tilt, and controlled elevation.</li>
+<li>Arm training includes low-fatigue serratus and cuff work without
+becoming another chest, back, or shoulder workout.</li>
+</ul>
+<p>Conscious scapular control can measurably alter scapular orientation
+and the activation balance among the trapezius and serratus muscles.
+However, focused scapular retraining has not consistently outperformed
+well-designed general exercise for clinical outcomes, and the evidence
+for changing pain or long-term kinematics remains mixed. The correct
+interpretation is therefore that cues and dedicated drills are
+<strong>useful motor practice layered into progressive lifting</strong>,
+not that every repetition must achieve one imagined perfect scapular
+pose.</p>
+<p>Normal arm elevation involves scapular motion from the beginning,
+principally increasing upward rotation and posterior tilt, with a trend
+toward external rotation. That is why “pin the shoulder blades back and
+down” is not used as a universal shoulder cue.</p>
+<p>The exercise variety is systematic rather than random. Distinct
+exercises are used where they provide meaningfully different mechanics;
+redundant substitutions are avoided. Research on exercise variation
+similarly suggests that purposeful variation may help, whereas excessive
+or biomechanically redundant variation can make progression worse rather
+than better.</p>
+<p>Priority exercises are placed early because the movements performed
+first tend to receive the greatest strength improvement. Low-fatigue
+rehabilitation may precede them when it improves positioning without
+creating meaningful fatigue; otherwise, rehabilitation is placed
+later.</p>
+<p>One focused bench session can still drive the 225-pound goal.
+Training frequency itself has little independent effect on hypertrophy
+when total volume is equated, while sufficient volume and progressive
+loading matter more. Heavier loading is particularly useful for
+improving one-repetition-maximum strength, which is why the bench
+receives a heavy top set and substantial back-off work even though chest
+is not emphasized elsewhere.</p>
+<h3 id="what-a-well-rounded-program-should-cover">What a well-rounded
+program should cover</h3>
+<p>A comprehensive bodybuilding and strength program should address
+horizontal and vertical pushing and pulling; elbow flexion and
+extension; a knee-dominant pattern; a hip hinge; hip extension and knee
+flexion; calves, tibialis, hip abductors, and adductors; trunk control
+in anti-extension, anti-rotation, anti-lateral flexion, and controlled
+spinal extension; and the major scapular functions of protraction,
+retraction, upward and downward rotation, posterior tilt, external
+rotation, and stabilization.</p>
+<h4 id="movement-pattern-audit">Movement-pattern audit</h4>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Requirement</th>
+<th>Coverage in this plan</th>
+<th>Assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Horizontal push</td>
+<td>Bench and close-grip paused bench</td>
+<td>One concentrated day, appropriate for the 225 goal without excessive
+chest frequency</td>
+</tr>
+<tr>
+<td>Vertical/scapular-plane push</td>
+<td>Arnold press, landmine press, cable scaption/Y raise</td>
+<td>Strong coverage with free scapular movement</td>
+</tr>
+<tr>
+<td>Vertical pull</td>
+<td>Pull-up/pulldown, unilateral pulldown, straight-arm pulldown</td>
+<td>Dedicated width day</td>
+</tr>
+<tr>
+<td>Horizontal pull</td>
+<td>Chest-supported row, unilateral cable row, Kelso shrug</td>
+<td>Dedicated thickness day without lumbar fatigue</td>
+</tr>
+<tr>
+<td>Horizontal abduction</td>
+<td>Reverse pec deck, prone T</td>
+<td>Covered without repeating it on every upper day</td>
+</tr>
+<tr>
+<td>Elbow flexion</td>
+<td>Dedicated arm day plus small additions to both back days</td>
+<td>Specialization-level volume</td>
+</tr>
+<tr>
+<td>Elbow extension</td>
+<td>Dedicated arm day plus small additions to bench day</td>
+<td>Specialization-level volume without a second chest day</td>
+</tr>
+<tr>
+<td>Knee-dominant lower body</td>
+<td>One primary pattern plus one small unilateral exposure</td>
+<td>Intentionally conservative because of recurrent knee
+sensitivity</td>
+</tr>
+<tr>
+<td>Hip hinge and extension</td>
+<td>RDL, hip thrust, back extension</td>
+<td>Strong posterior-chain coverage</td>
+</tr>
+<tr>
+<td>Knee flexion</td>
+<td>Seated leg curl</td>
+<td>Direct hamstring work</td>
+</tr>
+<tr>
+<td>Calf and tibialis</td>
+<td>Separate seated and standing calf work plus tibialis raises</td>
+<td>Complete lower-leg coverage</td>
+</tr>
+<tr>
+<td>Hip abduction/adduction</td>
+<td>Machines or cables on the knee-light day</td>
+<td>Directly included</td>
+</tr>
+<tr>
+<td>Anti-extension</td>
+<td>Dead bug and bird dog</td>
+<td>Covered</td>
+</tr>
+<tr>
+<td>Anti-rotation</td>
+<td>Pallof press</td>
+<td>Covered</td>
+</tr>
+<tr>
+<td>Anti-lateral flexion</td>
+<td>Side plank and suitcase carry</td>
+<td>QL priority addressed twice with different demands</td>
+</tr>
+<tr>
+<td>Posterior trunk endurance</td>
+<td>Back extension and bird dog</td>
+<td>Covered without turning every back day into lumbar work</td>
+</tr>
+<tr>
+<td>Scapular protraction</td>
+<td>Push-up plus, cable punch, dynamic hug, bear crawl</td>
+<td>Repeated foundational practice</td>
+</tr>
+<tr>
+<td>Scapular retraction</td>
+<td>Rows, Kelso shrug, reverse fly, prone T/W</td>
+<td>Heavy and controlled exposure</td>
+</tr>
+<tr>
+<td>Upward rotation/posterior tilt</td>
+<td>Wall slide, Arnold press, landmine press, Y/scaption raise</td>
+<td>Heavy priority</td>
+</tr>
+<tr>
+<td>External rotation/cuff</td>
+<td>Face-pull to ER, prone ER 90/90, prone W, side-lying ER</td>
+<td>Multiple positions rather than one repeated drill</td>
+</tr>
+<tr>
+<td>Conditioning</td>
+<td>Your treadmill and 4×4 work</td>
+<td>Kept outside the lifting list as requested</td>
+</tr>
+</tbody>
+</table>
+<h4 id="direct-set-audit-per-seven-session-cycle">Direct-set audit per
+seven-session cycle</h4>
+<p>These numbers are approximate because compound exercises overlap
+muscle groups.</p>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th style="text-align: right;">Direct or primary sets per cycle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chest</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr>
+<td>Vertical/lat-focused back</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr>
+<td>Horizontal upper back and rear delts</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr>
+<td>Delts and scapular-plane pressing</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr>
+<td>Biceps</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr>
+<td>Triceps</td>
+<td style="text-align: right;">13 isolation sets, plus 2 close-grip
+bench sets</td>
+</tr>
+<tr>
+<td>Knee-dominant legs</td>
+<td style="text-align: right;">5 loaded sets</td>
+</tr>
+<tr>
+<td>Posterior chain</td>
+<td style="text-align: right;">12 loaded sets</td>
+</tr>
+<tr>
+<td>Calves</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr>
+<td>Tibialis</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>Hip abductors/adductors</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td>Dedicated rehab/control exposures</td>
+<td style="text-align: right;">23</td>
+</tr>
+</tbody>
+</table>
+<p>This is intentionally <strong>back-, delt-, arm-, and
+rehabilitation-biased</strong>. Chest volume remains sufficient for
+strength progression. Knee-dominant volume is deliberately low, while
+posterior-chain and QL work are more substantial.</p>
+<p>The program has <strong>16 dedicated scapular-control
+exposures</strong> and <strong>7 dedicated knee/trunk-control
+exposures</strong>, with bear-crawl work contributing to both
+categories. Loaded Arnold presses, rows, pulldowns, lateral raises, and
+bench presses add further movement practice but are not counted as
+separate rehabilitation exposures.</p>
+<hr />
+<p><a href="#cheat-sheet">Back to the cheat sheet</a></p>
+  </main>
+</body>
 </html>
