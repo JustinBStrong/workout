@@ -27,11 +27,12 @@ jobs:
         run: |
           test -s index.html
           test -s workout.md
+          test -s sw.js
           ! grep -Eiq '<(button|input|script)' index.html
       - name: Assemble static site
         run: |
           mkdir _site
-          cp index.html workout.md styles.css .nojekyll _site/
+          cp index.html workout.md styles.css sw.js .nojekyll _site/
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site

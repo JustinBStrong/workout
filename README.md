@@ -4,6 +4,8 @@ A plain, light-mode reference for a seven-session round-robin strength and rehab
 
 The live page puts the complete cheat sheet first. Session headings link to their full notes, and movements with scapular-control instructions link directly to those cues. There are no buttons, accounts, tracking, browser storage, or runtime JavaScript.
 
+`sw.js` exists only to retire the previous version's offline worker: it removes that version's `workout-shell-v1` cache and unregisters itself. The document does not register a new worker.
+
 - Live page: <https://justinbstrong.github.io/workout/>
 - Source document: [`workout.md`](workout.md)
 
