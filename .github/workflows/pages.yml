@@ -3,26 +3,21 @@ name: Deploy workout to GitHub Pages
 on:
   push:
     branches: ["main"]
+  pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: actions/configure-pages@v6
       - name: Validate document
         run: |
           test -s index.html
@@ -36,6 +31,21 @@ jobs:
           ! grep -Eiq '<(button|input)' index.html
           test "$(grep -Eic '<script' index.html)" -eq 1
           grep -Fq 'navigator.serviceWorker.register("./sw.js")' index.html
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: validate
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/configure-pages@v6
       - name: Assemble static site
         run: |
           mkdir _site
