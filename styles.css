@@ -19,6 +19,10 @@ body {
   line-height: 1.65;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 h1,
 h2,
 h3,
@@ -84,6 +88,57 @@ a:hover {
 a:focus-visible {
   outline: 2px solid #0759b8;
   outline-offset: 3px;
+}
+
+.day-filter {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin: 2rem 0 1.25rem;
+  padding: 0.45rem 0;
+  overflow-x: auto;
+  border-top: 1px solid #c8cdd3;
+  border-bottom: 1px solid #c8cdd3;
+  font-family: "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+  font-size: 0.95rem;
+  scrollbar-width: none;
+}
+
+.day-filter::-webkit-scrollbar {
+  display: none;
+}
+
+.day-filter a {
+  flex: 0 0 auto;
+  padding: 0.2rem 0.1rem 0.12rem;
+  border-bottom: 2px solid transparent;
+  color: #4a4e55;
+  text-decoration: none;
+}
+
+.day-filter a:hover {
+  color: #111318;
+}
+
+.day-filter a[aria-current="page"] {
+  border-bottom-color: #111318;
+  color: #111318;
+  font-weight: 650;
+}
+
+.filtered-only {
+  font-family: "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+  font-size: 0.9rem;
+}
+
+.cue-group[data-filtered] ol {
+  padding-left: 0;
+  list-style: none;
+}
+
+.cue-group[data-filtered] .movement-cue {
+  margin-bottom: 0.85rem;
+  padding-left: 0;
 }
 
 blockquote {

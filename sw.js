@@ -1,7 +1,8 @@
-const CACHE_NAME = "workout-shell-v2";
+const CACHE_NAME = "workout-shell-v3";
 const APP_SHELL = [
   "./index.html",
   "./styles.css",
+  "./filter.js",
   "./manifest.webmanifest",
   "./icon.svg",
   "./apple-touch-icon.png"
