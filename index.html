@@ -12,6 +12,7 @@
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
+  <script src="filter.js" defer></script>
 </head>
 <body>
   <main>
@@ -21,16 +22,31 @@ week</strong>. Perform the sessions in order and insert rest days
 whenever recovery requires them. When the knee is sensitive, use the
 temporary version of Session 1 rather than deleting that session and
 compressing all of the upper-body workouts together.</p>
-<p><a href="#session-details">Session details</a> · <a
-href="#progression">Progression</a> · <a href="#exercise-notes">Exercise
-notes</a> · <a href="#rationale">Program rationale</a></p>
+<nav class="day-filter" data-day-filter aria-label="Workout session">
+<a href="./" data-day-choice="all">All</a>
+<a href="?day=1#cheat-sheet" data-day-choice="1">1</a>
+<a href="?day=2#cheat-sheet" data-day-choice="2">2</a>
+<a href="?day=3#cheat-sheet" data-day-choice="3">3</a>
+<a href="?day=4#cheat-sheet" data-day-choice="4">4</a>
+<a href="?day=5#cheat-sheet" data-day-choice="5">5</a>
+<a href="?day=6#cheat-sheet" data-day-choice="6">6</a>
+<a href="?day=7#cheat-sheet" data-day-choice="7">7</a>
+</nav>
+<p class="full-program-only">
+<a href="#session-details">Session details</a> ·
+<a href="#progression">Progression</a> ·
+<a href="#exercise-notes">Movement cues</a> ·
+<a href="#rationale">Program rationale</a>
+</p>
+<p class="filtered-only" hidden>
+<a href="./" data-day-choice="all">View full program</a>
+</p>
 <h2 id="cheat-sheet">Cheat sheet</h2>
 <h3 id="session-1-knee-light-legs-ql"><a href="#session-1">Session 1 —
 Knee-Light Legs + QL</a></h3>
 <ol type="1">
-<li><strong>Band-above-knee squat preparation</strong> — 2 light
-sets<br />
-</li>
+<li><a href="#squat-setup"><strong>Band-above-knee squat
+preparation</strong></a> — 2 light sets</li>
 <li><strong>Dead bug</strong> — 2 controlled sets<br />
 </li>
 <li><strong>Belt squat / hack squat / leg press / goblet squat</strong>
@@ -54,6 +70,12 @@ each side<br />
 <li><a href="#side-plank"><strong>Side plank</strong></a> — 2–3 × 20–40
 seconds each side</li>
 </ol>
+<blockquote>
+<p><strong>Knee-sensitive Session 1:</strong> Omit movements 3 and 4 if
+they reproduce the sensitivity. Keep calves, tibialis, hip work, Pallof
+press, and side plank. Use the banded preparation only if it is
+comfortable.</p>
+</blockquote>
 <h3 id="session-2-back-width-minor-biceps"><a href="#session-2">Session
 2 — Back Width + Minor Biceps</a></h3>
 <ol type="1">
@@ -74,7 +96,7 @@ hip</strong></a> — 2 × 10–15 each side<br />
 </li>
 <li><strong>Bayesian cable curl</strong> — 2 × 10–15<br />
 </li>
-<li><strong>Prone Y</strong> — 2 × 8–12</li>
+<li><a href="#prone-y"><strong>Prone Y</strong></a> — 2 × 8–12</li>
 </ol>
 <h3 id="session-3-bench-strength-chest-minor-triceps"><a
 href="#session-3">Session 3 — Bench Strength + Chest + Minor
@@ -89,9 +111,8 @@ set 3–5, then 3 × 5–8<br />
 <li><a href="#bench-press"><strong>Close-grip paused bench
 press</strong></a> — 2 × 6–8<br />
 </li>
-<li><a href="#scapular-fixation"><strong>Cable fly / pec
-deck</strong></a> — 2 × 10–15<br />
-</li>
+<li><a href="#cable-fly"><strong>Cable fly / pec deck</strong></a> — 2 ×
+10–15</li>
 <li><strong>Overhead cable triceps extension</strong> — 2 × 8–12<br />
 </li>
 <li><strong>Rope pushdown</strong> — 2 × 10–15<br />
@@ -123,8 +144,8 @@ straight-arm retraction shrug</strong></a> — 2 × 10–15<br />
 </li>
 <li><strong>Hammer curl</strong> — 2 × 10–15<br />
 </li>
-<li><a href="#retraction"><strong>Prone T + prone W</strong></a> — 2
-sets of each</li>
+<li><a href="#prone-t"><strong>Prone T</strong></a> + <a
+href="#prone-w"><strong>prone W</strong></a> — 2 sets of each</li>
 </ol>
 <h3 id="session-5-delts-serratus-loaded-upward-rotation"><a
 href="#session-5">Session 5 — Delts + Serratus + Loaded Upward
@@ -205,21 +226,14 @@ press-around</strong></a> — 2 × 12–15<br />
 <li><a href="#side-lying-er"><strong>Side-lying external
 rotation</strong></a> — 2 × 12–15</li>
 </ol>
-<blockquote>
-<p><strong>Knee-sensitive Session 1:</strong> Omit movements 3 and 4 if
-they reproduce the sensitivity. Keep calves, tibialis, hip work, Pallof
-press, and side plank. Use the banded preparation only if it is
-comfortable.</p>
-</blockquote>
 <h2 id="session-details">Session details</h2>
 <p>Choose one option where alternatives are listed and keep it for a
 block of approximately <strong>6–8 cycles</strong>. Do not select a
 different variation every time merely for novelty.</p>
 <h3 id="session-1">Session 1 — Knee-Light Legs + QL</h3>
 <ol type="1">
-<li><strong>Band-above-knee squat preparation</strong> — 2 light
-sets<br />
-</li>
+<li><a href="#squat-setup"><strong>Band-above-knee squat
+preparation</strong></a> — 2 light sets</li>
 <li><strong>Dead bug</strong> — 2 controlled sets<br />
 </li>
 <li><strong>Belt squat / hack squat / leg press / goblet squat</strong>
@@ -282,7 +296,7 @@ hip</strong></a> — 2 × 10–15 each side<br />
 </li>
 <li><strong>Bayesian cable curl</strong> — 2 × 10–15<br />
 </li>
-<li><strong>Prone Y</strong> — 2 × 8–12</li>
+<li><a href="#prone-y"><strong>Prone Y</strong></a> — 2 × 8–12</li>
 </ol>
 <p><strong>Why this order:</strong> The wall slide rehearses upward
 rotation and posterior tilt before vertical pulling. The main pull is
@@ -310,9 +324,8 @@ set 3–5, then 3 × 5–8<br />
 <li><a href="#bench-press"><strong>Close-grip paused bench
 press</strong></a> — 2 × 6–8<br />
 </li>
-<li><a href="#scapular-fixation"><strong>Cable fly / pec
-deck</strong></a> — 2 × 10–15<br />
-</li>
+<li><a href="#cable-fly"><strong>Cable fly / pec deck</strong></a> — 2 ×
+10–15</li>
 <li><strong>Overhead cable triceps extension</strong> — 2 × 8–12<br />
 </li>
 <li><strong>Rope pushdown</strong> — 2 × 10–15<br />
@@ -359,8 +372,8 @@ straight-arm retraction shrug</strong></a> — 2 × 10–15<br />
 </li>
 <li><strong>Hammer curl</strong> — 2 × 10–15<br />
 </li>
-<li><a href="#retraction"><strong>Prone T + prone W</strong></a> — 2
-sets of each</li>
+<li><a href="#prone-t"><strong>Prone T</strong></a> + <a
+href="#prone-w"><strong>prone W</strong></a> — 2 sets of each</li>
 </ol>
 <p><strong>Why this order:</strong> The bear-crawl hold establishes a
 broad, flush scapular position rather than beginning with the blades
@@ -534,7 +547,7 @@ they still contribute to quadriceps, calf, and knee loading. During the
 current sensitive period, their dose should be adjusted by the same
 symptom response used for the knee-dominant lifting.</p>
 <p><a href="#cheat-sheet">Back to the cheat sheet</a></p>
-<h2 id="exercise-notes">Exercise notes</h2>
+<h2 id="exercise-notes">Movement cues</h2>
 <h3 id="quick-lookup">Quick lookup</h3>
 <table>
 <colgroup>
@@ -957,10 +970,11 @@ repetition. Do not attempt a dramatic push-up-plus motion at lockout
 because the bench physically prevents normal protraction. At the bottom,
 keep the shoulder centered rather than allowing the humeral head to roll
 forward.</p></li>
-<li><p><strong>Cable fly or pec deck.</strong> When the torso is
-supported by a pad, use modest stability rather than trying to force a
-large reach. If the setup allows free scapular movement, permit
-controlled protraction as the arms come forward.</p></li>
+<li><p><span id="cable-fly"></span><strong>Cable fly or pec
+deck.</strong> When the torso is supported by a pad, use modest
+stability rather than trying to force a large reach. If the setup allows
+free scapular movement, permit controlled protraction as the arms come
+forward.</p></li>
 </ol>
 <p>The main error is applying the push-up-plus cue to a movement in
 which the bench physically prevents normal scapular motion.</p>

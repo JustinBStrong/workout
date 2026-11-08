@@ -2,13 +2,26 @@
 
 This is a **seven-session cycle, not a seven-day calendar week**. Perform the sessions in order and insert rest days whenever recovery requires them. When the knee is sensitive, use the temporary version of Session 1 rather than deleting that session and compressing all of the upper-body workouts together.
 
-[Session details](#session-details) · [Progression](#progression) · [Exercise notes](#exercise-notes) · [Program rationale](#rationale)
+<nav class="day-filter" data-day-filter aria-label="Workout session">
+  <a href="./" data-day-choice="all">All</a>
+  <a href="?day=1#cheat-sheet" data-day-choice="1">1</a>
+  <a href="?day=2#cheat-sheet" data-day-choice="2">2</a>
+  <a href="?day=3#cheat-sheet" data-day-choice="3">3</a>
+  <a href="?day=4#cheat-sheet" data-day-choice="4">4</a>
+  <a href="?day=5#cheat-sheet" data-day-choice="5">5</a>
+  <a href="?day=6#cheat-sheet" data-day-choice="6">6</a>
+  <a href="?day=7#cheat-sheet" data-day-choice="7">7</a>
+</nav>
+
+<p class="full-program-only"><a href="#session-details">Session details</a> · <a href="#progression">Progression</a> · <a href="#exercise-notes">Movement cues</a> · <a href="#rationale">Program rationale</a></p>
+
+<p class="filtered-only" hidden><a href="./" data-day-choice="all">View full program</a></p>
 
 ## Cheat sheet {#cheat-sheet}
 
 ### [Session 1 — Knee-Light Legs + QL](#session-1)
 
-1. **Band-above-knee squat preparation** — 2 light sets  
+1. [**Band-above-knee squat preparation**](#squat-setup) — 2 light sets
 2. **Dead bug** — 2 controlled sets  
 3. **Belt squat / hack squat / leg press / goblet squat** — choose one, 3 × 8–12  
 4. **Reverse lunge / low step-up** — choose one, 2 × 8–12 each side  
@@ -19,6 +32,8 @@ This is a **seven-session cycle, not a seven-day calendar week**. Perform the se
 9. [**Pallof press**](#pallof-press) — 2–3 × 10–12 each side  
 10. [**Side plank**](#side-plank) — 2–3 × 20–40 seconds each side  
 
+> **Knee-sensitive Session 1:** Omit movements 3 and 4 if they reproduce the sensitivity. Keep calves, tibialis, hip work, Pallof press, and side plank. Use the banded preparation only if it is comfortable.
+
 ### [Session 2 — Back Width + Minor Biceps](#session-2)
 
 1. [**Wall slide + lift-off**](#wall-slide) — 2 × 8–12  
@@ -27,14 +42,14 @@ This is a **seven-session cycle, not a seven-day calendar week**. Perform the se
 4. [**Straight-arm pulldown**](#straight-arm-pulldown) — 2 × 12–15  
 5. [**High cable lat row toward the hip**](#lat-row) — 2 × 10–15 each side  
 6. **Bayesian cable curl** — 2 × 10–15  
-7. **Prone Y** — 2 × 8–12  
+7. [**Prone Y**](#prone-y) — 2 × 8–12
 
 ### [Session 3 — Bench Strength + Chest + Minor Triceps](#session-3)
 
 1. [**Push-up plus on handles**](#push-up-plus) — 2 × 5–8, deliberately submaximal  
 2. [**Flat bench press**](#bench-press) — top set 3–5, then 3 × 5–8  
 3. [**Close-grip paused bench press**](#bench-press) — 2 × 6–8  
-4. [**Cable fly / pec deck**](#scapular-fixation) — 2 × 10–15  
+4. [**Cable fly / pec deck**](#cable-fly) — 2 × 10–15
 5. **Overhead cable triceps extension** — 2 × 8–12  
 6. **Rope pushdown** — 2 × 10–15  
 7. [**Cable punch**](#cable-punch) — 2 × 12–15  
@@ -48,7 +63,7 @@ This is a **seven-session cycle, not a seven-day calendar week**. Perform the se
 4. [**Reverse pec deck / rear-delt cable fly**](#reverse-fly) — 3 × 12–20  
 5. [**Kelso shrug or chest-supported straight-arm retraction shrug**](#kelso-shrug) — 2 × 10–15  
 6. **Hammer curl** — 2 × 10–15  
-7. [**Prone T + prone W**](#retraction) — 2 sets of each  
+7. [**Prone T**](#prone-t) + [**prone W**](#prone-w) — 2 sets of each
 
 ### [Session 5 — Delts + Serratus + Loaded Upward Rotation](#session-5)
 
@@ -85,15 +100,13 @@ This is a **seven-session cycle, not a seven-day calendar week**. Perform the se
 8. [**Dynamic hug / cable press-around**](#dynamic-hug) — 2 × 12–15  
 9. [**Side-lying external rotation**](#side-lying-er) — 2 × 12–15  
 
-> **Knee-sensitive Session 1:** Omit movements 3 and 4 if they reproduce the sensitivity. Keep calves, tibialis, hip work, Pallof press, and side plank. Use the banded preparation only if it is comfortable.
-
 ## Session details {#session-details}
 
 Choose one option where alternatives are listed and keep it for a block of approximately **6–8 cycles**. Do not select a different variation every time merely for novelty.
 
 ### Session 1 — Knee-Light Legs + QL {#session-1}
 
-1. **Band-above-knee squat preparation** — 2 light sets  
+1. [**Band-above-knee squat preparation**](#squat-setup) — 2 light sets
 2. **Dead bug** — 2 controlled sets  
 3. **Belt squat / hack squat / leg press / goblet squat** — choose one, 3 × 8–12  
 4. **Reverse lunge / low step-up** — choose one, 2 × 8–12 each side  
@@ -119,7 +132,7 @@ Choose one option where alternatives are listed and keep it for a block of appro
 4. [**Straight-arm pulldown**](#straight-arm-pulldown) — 2 × 12–15  
 5. [**High cable lat row toward the hip**](#lat-row) — 2 × 10–15 each side  
 6. **Bayesian cable curl** — 2 × 10–15  
-7. **Prone Y** — 2 × 8–12  
+7. [**Prone Y**](#prone-y) — 2 × 8–12
 
 **Why this order:** The wall slide rehearses upward rotation and posterior tilt before vertical pulling. The main pull is performed fresh. The unilateral pulldown adds side-to-side control and a different line of shoulder extension. The straight-arm pulldown trains loaded downward rotation and lat capacity without adding another elbow-flexion-heavy pull. The high cable lat row remains elbow-to-hip and lat-oriented rather than duplicating the horizontal thickness day. Biceps receive only a small direct exposure. The prone Y restores lower-trap and upward-rotation control after the lats have been heavily used.
 
@@ -132,7 +145,7 @@ Choose one option where alternatives are listed and keep it for a block of appro
 1. [**Push-up plus on handles**](#push-up-plus) — 2 × 5–8, deliberately submaximal  
 2. [**Flat bench press**](#bench-press) — top set 3–5, then 3 × 5–8  
 3. [**Close-grip paused bench press**](#bench-press) — 2 × 6–8  
-4. [**Cable fly / pec deck**](#scapular-fixation) — 2 × 10–15  
+4. [**Cable fly / pec deck**](#cable-fly) — 2 × 10–15
 5. **Overhead cable triceps extension** — 2 × 8–12  
 6. **Rope pushdown** — 2 × 10–15  
 7. [**Cable punch**](#cable-punch) — 2 × 12–15  
@@ -152,7 +165,7 @@ Choose one option where alternatives are listed and keep it for a block of appro
 4. [**Reverse pec deck / rear-delt cable fly**](#reverse-fly) — 3 × 12–20  
 5. [**Kelso shrug or chest-supported straight-arm retraction shrug**](#kelso-shrug) — 2 × 10–15  
 6. **Hammer curl** — 2 × 10–15  
-7. [**Prone T + prone W**](#retraction) — 2 sets of each  
+7. [**Prone T**](#prone-t) + [**prone W**](#prone-w) — 2 sets of each
 
 **Why this order:** The bear-crawl hold establishes a broad, flush scapular position rather than beginning with the blades already clamped together. The heavy chest-supported row builds thickness without loading the QL or lower back after the prior sessions. The unilateral cable row adds independent scapular excursion. The reverse fly trains horizontal abduction instead of adding a third conventional row. The Kelso shrug isolates loaded retraction without elbow flexion. Biceps receive a small neutral-grip exposure. Prone T and W finish with controlled horizontal abduction, posterior tilt, and external rotation after the heavy retractors have accumulated fatigue.
 
@@ -237,7 +250,7 @@ Your treadmill and 4×4 work remain outside the written program, but they still 
 
 [Back to the cheat sheet](#cheat-sheet)
 
-## Exercise notes {#exercise-notes}
+## Movement cues {#exercise-notes}
 
 ### Quick lookup {#quick-lookup}
 
@@ -433,7 +446,7 @@ The useful cue is:
 
 1. <span id="bench-press"></span>**Flat bench or close-grip paused bench.** Maintain stable scapular contact throughout the repetition. Do not attempt a dramatic push-up-plus motion at lockout because the bench physically prevents normal protraction. At the bottom, keep the shoulder centered rather than allowing the humeral head to roll forward.
 
-2. **Cable fly or pec deck.** When the torso is supported by a pad, use modest stability rather than trying to force a large reach. If the setup allows free scapular movement, permit controlled protraction as the arms come forward.
+2. <span id="cable-fly"></span>**Cable fly or pec deck.** When the torso is supported by a pad, use modest stability rather than trying to force a large reach. If the setup allows free scapular movement, permit controlled protraction as the arms come forward.
 
 The main error is applying the push-up-plus cue to a movement in which the bench physically prevents normal scapular motion.
 
