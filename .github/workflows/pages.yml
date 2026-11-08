@@ -3,19 +3,42 @@ name: Deploy workout to GitHub Pages
 on:
   push:
     branches: ["main"]
+  pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Validate document
+        run: |
+          test -s index.html
+          test -s workout.md
+          test -s sw.js
+          test -s manifest.webmanifest
+          test -s icon.svg
+          test -s apple-touch-icon.png
+          node --check sw.js
+          python3 -m json.tool manifest.webmanifest > /dev/null
+          ! grep -Eiq '<(button|input)' index.html
+          test "$(grep -Eic '<script' index.html)" -eq 1
+          grep -Fq 'navigator.serviceWorker.register("./sw.js")' index.html
+
   deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: validate
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -23,16 +46,10 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: actions/configure-pages@v6
-      - name: Validate document
-        run: |
-          test -s index.html
-          test -s workout.md
-          test -s sw.js
-          ! grep -Eiq '<(button|input|script)' index.html
       - name: Assemble static site
         run: |
           mkdir _site
-          cp index.html workout.md styles.css sw.js .nojekyll _site/
+          cp index.html workout.md styles.css sw.js manifest.webmanifest icon.svg apple-touch-icon.png .nojekyll _site/
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
