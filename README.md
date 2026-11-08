@@ -2,9 +2,9 @@
 
 A plain, light-mode reference for a seven-session round-robin strength and rehabilitation program.
 
-The live page puts the complete cheat sheet first. Session headings link to their full notes, and movements with scapular-control instructions link directly to those cues. There are no buttons, accounts, or tracking.
+The live page puts the complete cheat sheet first. Choose a session number to show only that workout and its relevant movement cues, or choose All to read the complete program. The last selection is remembered on the device. There are no accounts or workout tracking.
 
-`sw.js` caches the page shell for instant repeat launches and offline use. Cached files are returned immediately while a background request refreshes them for the next visit. The only page script registers that worker; the workout document itself has no interactive runtime.
+`filter.js` progressively enhances the static document: it builds workout-day and movement-cue components from the Markdown headings and links, then changes their native `hidden` state. The full document remains available without JavaScript. `sw.js` caches the page shell for instant repeat launches and offline use.
 
 - Live page: <https://justinbstrong.github.io/workout/>
 - Source document: [`workout.md`](workout.md)
