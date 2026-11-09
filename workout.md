@@ -40,9 +40,8 @@ This is a **seven-session cycle, not a seven-day calendar week**. Perform the se
 2. [**Neutral-grip pull-up / assisted pull-up / neutral-grip pulldown**](#pulldown) — top set 5–8, then 3 × 6–10  
 3. [**One-arm kneeling cable pulldown**](#one-arm-pulldown) — 3 × 8–12 each side  
 4. [**Straight-arm pulldown**](#straight-arm-pulldown) — 2 × 12–15  
-5. [**High cable lat row toward the hip**](#lat-row) — 2 × 10–15 each side  
-6. **Bayesian cable curl** — 2 × 10–15  
-7. [**Prone Y**](#prone-y) — 2 × 8–12
+5. **Bayesian cable curl** — 2 × 10–15  
+6. [**Prone Y**](#prone-y) — 2 × 8–12
 
 ### [Session 3 — Bench Strength + Chest + Minor Triceps](#session-3)
 
@@ -70,11 +69,10 @@ This is a **seven-session cycle, not a seven-day calendar week**. Perform the se
 1. [**Wall slide + lift-off**](#wall-slide) — 2 × 8–12  
 2. [**Arnold press**](#arnold-press) — 4 × 6–10  
 3. [**Half-kneeling landmine press**](#landmine-press) — 3 × 8–12 each side  
-4. [**Cable lateral raise**](#lateral-raise) — 3 × 12–20  
-5. [**Machine lateral raise / leaning dumbbell lateral raise**](#lateral-raise) — 2 × 12–20  
-6. [**Cable Y raise or cable scaption raise**](#scaption) — 2 × 10–15  
-7. [**Cable punch**](#cable-punch) — 2 × 12–15  
-8. [**Prone ER 90/90**](#prone-er) — 2 × 12–15  
+4. [**Cable / machine / leaning dumbbell lateral raise**](#lateral-raise) — choose one, 3 × 12–20  
+5. [**Cable Y raise or cable scaption raise**](#scaption) — 2 × 10–15  
+6. [**Cable punch**](#cable-punch) — 2 × 12–15  
+7. [**Prone ER 90/90**](#prone-er) — 2 × 12–15  
 
 ### [Session 6 — Posterior Chain + QL](#session-6)
 
@@ -130,14 +128,13 @@ Choose one option where alternatives are listed and keep it for a block of appro
 2. [**Neutral-grip pull-up / assisted pull-up / neutral-grip pulldown**](#pulldown) — top set 5–8, then 3 × 6–10  
 3. [**One-arm kneeling cable pulldown**](#one-arm-pulldown) — 3 × 8–12 each side  
 4. [**Straight-arm pulldown**](#straight-arm-pulldown) — 2 × 12–15  
-5. [**High cable lat row toward the hip**](#lat-row) — 2 × 10–15 each side  
-6. **Bayesian cable curl** — 2 × 10–15  
-7. [**Prone Y**](#prone-y) — 2 × 8–12
+5. **Bayesian cable curl** — 2 × 10–15  
+6. [**Prone Y**](#prone-y) — 2 × 8–12
 
-**Why this order:** The wall slide rehearses upward rotation and posterior tilt before vertical pulling. The main pull is performed fresh. The unilateral pulldown adds side-to-side control and a different line of shoulder extension. The straight-arm pulldown trains loaded downward rotation and lat capacity without adding another elbow-flexion-heavy pull. The high cable lat row remains elbow-to-hip and lat-oriented rather than duplicating the horizontal thickness day. Biceps receive only a small direct exposure. The prone Y restores lower-trap and upward-rotation control after the lats have been heavily used.
+**Why this order:** The wall slide rehearses upward rotation and posterior tilt before vertical pulling. The main pull is performed fresh. The unilateral pulldown adds side-to-side control and a different line of shoulder extension. The straight-arm pulldown trains loaded downward rotation and lat capacity without adding another elbow-flexion-heavy pull. These three pulling patterns already provide sufficient width-day coverage, so the former high-to-low cable row is not replaced. Biceps receive only a small direct exposure. The prone Y restores lower-trap and upward-rotation control after the lats have been heavily used.
 
 **Scapular job:** upwardly rotated reach at the top, followed by controlled downward rotation and depression.  
-**Serious lifting movements:** 5  
+**Serious lifting movements:** 4  
 **Dedicated rehab/control exposures:** 3  
 
 ### Session 3 — Bench Strength + Chest + Minor Triceps {#session-3}
@@ -178,16 +175,15 @@ Choose one option where alternatives are listed and keep it for a block of appro
 1. [**Wall slide + lift-off**](#wall-slide) — 2 × 8–12  
 2. [**Arnold press**](#arnold-press) — 4 × 6–10  
 3. [**Half-kneeling landmine press**](#landmine-press) — 3 × 8–12 each side  
-4. [**Cable lateral raise**](#lateral-raise) — 3 × 12–20  
-5. [**Machine lateral raise / leaning dumbbell lateral raise**](#lateral-raise) — 2 × 12–20  
-6. [**Cable Y raise or cable scaption raise**](#scaption) — 2 × 10–15  
-7. [**Cable punch**](#cable-punch) — 2 × 12–15  
-8. [**Prone ER 90/90**](#prone-er) — 2 × 12–15  
+4. [**Cable / machine / leaning dumbbell lateral raise**](#lateral-raise) — choose one, 3 × 12–20  
+5. [**Cable Y raise or cable scaption raise**](#scaption) — 2 × 10–15  
+6. [**Cable punch**](#cable-punch) — 2 × 12–15  
+7. [**Prone ER 90/90**](#prone-er) — 2 × 12–15  
 
-**Why this order:** The wall slide directly rehearses the upward rotation and posterior tilt required by the loaded pressing. Arnold press is the primary movement and is performed fresh. The landmine press uses a forward-upward path with substantial protraction and upward rotation. The two lateral-raise patterns give the middle deltoid useful volume through different resistance curves without turning another day into general pressing. The Y/scaption raise integrates the lower trapezius and scapular plane. The cable punch reinforces serratus control after shoulder fatigue. Prone external rotation is last because pre-fatiguing the cuff before Arnold and landmine pressing would reduce the quality of the loaded work.
+**Why this order:** The wall slide directly rehearses the upward rotation and posterior tilt required by the loaded pressing. Arnold press is the primary movement and is performed fresh. The landmine press uses a forward-upward path with substantial protraction and upward rotation. One consistent lateral-raise variation gives the middle deltoid useful volume and a clear progression target without turning equipment changes into separate movements. The Y/scaption raise integrates the lower trapezius and scapular plane. The cable punch reinforces serratus control after shoulder fatigue. Prone external rotation is last because pre-fatiguing the cuff before Arnold and landmine pressing would reduce the quality of the loaded work. No replacement movement is added: the session already covers deltoid loading, upward rotation, posterior tilt, protraction, and external rotation, while additional fatigue would work against the control goal.
 
 **Scapular job:** upward rotation, external rotation, posterior tilt, and controlled elevation under load.  
-**Serious lifting movements:** 5  
+**Serious lifting movements:** 4  
 **Dedicated rehab/control exposures:** 3  
 
 ### Session 6 — Posterior Chain + QL {#session-6}
@@ -240,7 +236,7 @@ After Session 7, return to Session 1. That places the knee-light lower session b
 
 **Accessories:** Most sets should finish with approximately 0–2 clean repetitions in reserve. The final set of stable curls, pushdowns, lateral raises, calf raises, and machines may approach failure when technique remains intact.
 
-**Rehabilitation and control work:** Keep approximately 2–4 clean repetitions in reserve. Do not grind, chase load, or continue once the scapular movement becomes less controlled. Failure is not required for strength or hypertrophy, and avoiding it is particularly sensible where the purpose is motor control.
+**Rehabilitation and control work:** Keep approximately 2–4 clean repetitions in reserve. Do not grind, chase load, or continue once the scapular movement becomes less controlled. Stop the set if tingling, numbness, or a hand or arm zap appears; neurologic symptoms are not a productive training sensation. Failure is not required for strength or hypertrophy, and avoiding it is particularly sensible where the purpose is motor control.
 
 **QL work:** Progress suitcase carries through cleaner posture, distance, and then load. Progress side planks through longer controlled holds before adding weight. Neither should create the familiar grabbing or spasm pattern.
 
@@ -430,9 +426,7 @@ Allow the scapula to rise and upwardly rotate at the top of a pulldown, then let
 
 3. <span id="straight-arm-pulldown"></span>**Straight-arm pulldown.** Begin with the scapulae allowed to upwardly rotate. As the arms sweep toward the thighs, let the inferior angles travel downward and inward while the blades remain flush. Do not create range through lumbar extension.
 
-4. <span id="lat-row"></span>**High cable lat row to hip.** Reach forward and upward enough for the scapula to protract and upwardly rotate. Then pull the elbow toward the hip while the scapula moves down and back without twisting the torso.
-
-5. **Carries and hinges.** Use [carry](#carry) and [hinge](#hinge).
+4. **Carries and hinges.** Use [carry](#carry) and [hinge](#hinge).
 
 ### Scapular fixation during bench-supported pressing {#scapular-fixation}
 
@@ -589,9 +583,9 @@ These numbers are approximate because compound exercises overlap muscle groups.
 | Area | Direct or primary sets per cycle |
 |---|---:|
 | Chest | 8 |
-| Vertical/lat-focused back | 11 |
+| Vertical/lat-focused back | 9 |
 | Horizontal upper back and rear delts | 12 |
-| Delts and scapular-plane pressing | 14 |
+| Delts and scapular-plane pressing | 12 |
 | Biceps | 13 |
 | Triceps | 13 isolation sets, plus 2 close-grip bench sets |
 | Knee-dominant legs | 5 loaded sets |
