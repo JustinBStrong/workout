@@ -69,10 +69,11 @@ This is a **seven-session cycle, not a seven-day calendar week**. Perform the se
 1. [**Wall slide + lift-off**](#wall-slide) — 2 × 8–12  
 2. [**Arnold press**](#arnold-press) — 4 × 6–10  
 3. [**Half-kneeling landmine press**](#landmine-press) — 3 × 8–12 each side  
-4. [**Cable / machine / leaning dumbbell lateral raise**](#lateral-raise) — choose one, 3 × 12–20  
-5. [**Cable Y raise or cable scaption raise**](#scaption) — 2 × 10–15  
-6. [**Cable punch**](#cable-punch) — 2 × 12–15  
-7. [**Prone ER 90/90**](#prone-er) — 2 × 12–15  
+4. [**Half-kneeling single-arm dumbbell overhead hold**](#overhead-hold) — 2 × 15–30 seconds each side  
+5. [**Cable / machine / leaning dumbbell lateral raise**](#lateral-raise) — choose one, 3 × 12–20  
+6. [**Cable Y raise or cable scaption raise**](#scaption) — 2 × 10–15  
+7. [**Cable punch**](#cable-punch) — 2 × 12–15  
+8. [**Prone ER 90/90**](#prone-er) — 2 × 12–15  
 
 ### [Session 6 — Posterior Chain + QL](#session-6)
 
@@ -175,16 +176,17 @@ Choose one option where alternatives are listed and keep it for a block of appro
 1. [**Wall slide + lift-off**](#wall-slide) — 2 × 8–12  
 2. [**Arnold press**](#arnold-press) — 4 × 6–10  
 3. [**Half-kneeling landmine press**](#landmine-press) — 3 × 8–12 each side  
-4. [**Cable / machine / leaning dumbbell lateral raise**](#lateral-raise) — choose one, 3 × 12–20  
-5. [**Cable Y raise or cable scaption raise**](#scaption) — 2 × 10–15  
-6. [**Cable punch**](#cable-punch) — 2 × 12–15  
-7. [**Prone ER 90/90**](#prone-er) — 2 × 12–15  
+4. [**Half-kneeling single-arm dumbbell overhead hold**](#overhead-hold) — 2 × 15–30 seconds each side  
+5. [**Cable / machine / leaning dumbbell lateral raise**](#lateral-raise) — choose one, 3 × 12–20  
+6. [**Cable Y raise or cable scaption raise**](#scaption) — 2 × 10–15  
+7. [**Cable punch**](#cable-punch) — 2 × 12–15  
+8. [**Prone ER 90/90**](#prone-er) — 2 × 12–15  
 
-**Why this order:** The wall slide directly rehearses the upward rotation and posterior tilt required by the loaded pressing. Arnold press is the primary movement and is performed fresh. The landmine press uses a forward-upward path with substantial protraction and upward rotation. One consistent lateral-raise variation gives the middle deltoid useful volume and a clear progression target without turning equipment changes into separate movements. The Y/scaption raise integrates the lower trapezius and scapular plane. The cable punch reinforces serratus control after shoulder fatigue. Prone external rotation is last because pre-fatiguing the cuff before Arnold and landmine pressing would reduce the quality of the loaded work. No replacement movement is added: the session already covers deltoid loading, upward rotation, posterior tilt, protraction, and external rotation, while additional fatigue would work against the control goal.
+**Why this order:** The wall slide directly rehearses the upward rotation and posterior tilt required by the loaded pressing. Arnold press is the primary movement and is performed fresh. The landmine press uses a forward-upward path with substantial protraction and upward rotation. The overhead hold then adds the one missing demand: sustaining an upwardly rotated, posteriorly tilted scapula under a continuous load after the arm has stopped moving. Keeping it stationary and half-kneeling avoids the extra walking and QL demand of an overhead carry, while an ordinary dumbbell avoids making intense grip the purpose of the exercise. One consistent lateral-raise variation gives the middle deltoid useful volume and a clear progression target without turning equipment changes into separate movements. The Y/scaption raise integrates the lower trapezius and scapular plane. The cable punch reinforces serratus control after shoulder fatigue. Prone external rotation is last because pre-fatiguing the cuff before Arnold and landmine pressing would reduce the quality of the loaded work.
 
 **Scapular job:** upward rotation, external rotation, posterior tilt, and controlled elevation under load.  
 **Serious lifting movements:** 4  
-**Dedicated rehab/control exposures:** 3  
+**Dedicated rehab/control exposures:** 4  
 
 ### Session 6 — Posterior Chain + QL {#session-6}
 
@@ -258,6 +260,7 @@ Your treadmill and 4×4 work remain outside the written program, but they still 
 | [Wall slide + lift-off](#wall-slide) | Upward rotation, posterior tilt | Slide up while pushing the wall away |
 | [Overhead/DB press](#upward-rotation) | Upward rotation | Reach tall; do not pin the blades down |
 | [Landmine press](#landmine-press) | Upward rotation + protraction | Follow the bar and reach through it |
+| [Overhead hold](#overhead-hold) | Loaded overhead stabilization | Bottom point around and up; ribs stay stacked |
 | [Lateral raise](#lateral-raise) | Scaption + upward rotation | Slightly forward, reach outward |
 | [Prone Y](#prone-y) | Upward rotation + posterior tilt | Thumbs up, reach long |
 | [Face-pull to ER](#face-pull) | Retraction + external rotation | Pull, then rotate the upper arms |
@@ -334,15 +337,17 @@ The useful cue is:
 
 1. <span id="bear-crawl"></span>**Bear-crawl hold.** Push the floor away until the upper back becomes broad. Keep the chest from sinking between the shoulders and maintain the scapulae flush against the ribs while the knees hover.
 
-2. <span id="carry"></span>**Farmer or suitcase carry.** Keep the loaded scapula broad and controlled rather than hiking it toward the ear or forcibly dragging it downward. During a suitcase carry, keep the torso vertical rather than leaning away from the weight.
+2. <span id="overhead-hold"></span>**Half-kneeling single-arm dumbbell overhead hold.** Use an ordinary dumbbell and a neutral grip rather than a grip-intensive bottoms-up position. Keep the elbow extended without forcefully jamming it into lockout. Maintain stacked ribs while the inferior angle stays wrapped outward and upward and the medial border remains controlled against the ribs. Allow natural elevation, but do not substitute a neck-dominant shrug. Start with a load that makes 15 seconds easy, progress duration to 30 seconds before adding weight, and end the hold immediately if the position deteriorates or neurologic symptoms appear.
 
-3. <span id="hinge"></span>**Deadlift or Romanian deadlift.** Keep the arms long and the scapulae broad. Use enough lat tension to connect the upper arms to the torso, but do not retract the shoulder blades before pulling or shrug them at lockout.
+3. <span id="carry"></span>**Farmer or suitcase carry.** Keep the loaded scapula broad and controlled rather than hiking it toward the ear or forcibly dragging it downward. During a suitcase carry, keep the torso vertical rather than leaning away from the weight.
 
-4. <span id="pallof-press"></span>**Pallof press.** As the hands travel away from the chest, allow controlled scapular protraction while both blades remain flush. Resist torso rotation without pulling the shoulders backward.
+4. <span id="hinge"></span>**Deadlift or Romanian deadlift.** Keep the arms long and the scapulae broad. Use enough lat tension to connect the upper arms to the torso, but do not retract the shoulder blades before pulling or shrug them at lockout.
 
-5. <span id="side-plank"></span>**Side plank.** Push the supporting forearm into the floor so the supporting shoulder does not collapse. Keep the supporting scapula broad and flush while the trunk remains straight; do not hang passively from the shoulder joint.
+5. <span id="pallof-press"></span>**Pallof press.** As the hands travel away from the chest, allow controlled scapular protraction while both blades remain flush. Resist torso rotation without pulling the shoulders backward.
 
-6. <span id="squat-setup"></span>**Squat setup.** Create enough upper-back tension to support the bar and torso position. Do not confuse bracing with aggressively depressing both scapulae or forcing the shoulders into painful retraction.
+6. <span id="side-plank"></span>**Side plank.** Push the supporting forearm into the floor so the supporting shoulder does not collapse. Keep the supporting scapula broad and flush while the trunk remains straight; do not hang passively from the shoulder joint.
+
+7. <span id="squat-setup"></span>**Squat setup.** Create enough upper-back tension to support the bar and torso position. Do not confuse bracing with aggressively depressing both scapulae or forcing the shoulders into painful retraction.
 
 ### Posterior tilt {#posterior-tilt}
 
@@ -496,11 +501,13 @@ The complete cue is:
 
 2. **Landmine press.** Use [landmine press](#landmine-press).
 
-3. **Lateral raise.** Use [lateral raise](#lateral-raise).
+3. **Overhead hold.** Use [overhead hold](#overhead-hold).
 
-4. **Prone or cable Y raise.** Use [prone Y](#prone-y) or [scaption](#scaption).
+4. **Lateral raise.** Use [lateral raise](#lateral-raise).
 
-5. **Pulldown top position.** At the top, permit upward rotation before reversing into the pull; do not keep the blades permanently depressed.
+5. **Prone or cable Y raise.** Use [prone Y](#prone-y) or [scaption](#scaption).
+
+6. **Pulldown top position.** At the top, permit upward rotation before reversing into the pull; do not keep the blades permanently depressed.
 
 Common errors are keeping the blades “back and down,” creating only a neck-dominant shrug, allowing the medial border to wing, and using rib flare or spinal extension instead of scapular rotation.
 
@@ -572,7 +579,7 @@ A comprehensive bodybuilding and strength program should address horizontal and 
 | Posterior trunk endurance | Back extension and bird dog | Covered without turning every back day into lumbar work |
 | Scapular protraction | Push-up plus, cable punch, dynamic hug, bear crawl | Repeated foundational practice |
 | Scapular retraction | Rows, Kelso shrug, reverse fly, prone T/W | Heavy and controlled exposure |
-| Upward rotation/posterior tilt | Wall slide, Arnold press, landmine press, Y/scaption raise | Heavy priority |
+| Upward rotation/posterior tilt | Wall slide, Arnold press, landmine press, overhead hold, Y/scaption raise | Dynamic and sustained loaded control are both covered |
 | External rotation/cuff | Face-pull to ER, prone ER 90/90, prone W, side-lying ER | Multiple positions rather than one repeated drill |
 | Conditioning | Your treadmill and 4×4 work | Kept outside the lifting list as requested |
 
@@ -593,11 +600,11 @@ These numbers are approximate because compound exercises overlap muscle groups.
 | Calves | 7 |
 | Tibialis | 3 |
 | Hip abductors/adductors | 6 |
-| Dedicated rehab/control exposures | 23 |
+| Dedicated rehab/control exposures | 24 |
 
 This is intentionally **back-, delt-, arm-, and rehabilitation-biased**. Chest volume remains sufficient for strength progression. Knee-dominant volume is deliberately low, while posterior-chain and QL work are more substantial.
 
-The program has **16 dedicated scapular-control exposures** and **7 dedicated knee/trunk-control exposures**, with bear-crawl work contributing to both categories. Loaded Arnold presses, rows, pulldowns, lateral raises, and bench presses add further movement practice but are not counted as separate rehabilitation exposures.
+The program has **17 dedicated scapular-control exposures** and **7 dedicated knee/trunk-control exposures**, with bear-crawl work contributing to both categories. Loaded Arnold presses, rows, pulldowns, lateral raises, and bench presses add further movement practice but are not counted as separate rehabilitation exposures.
 
 ---
 
