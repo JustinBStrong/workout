@@ -39,9 +39,10 @@ This is a **seven-session cycle, not a seven-day calendar week**. Perform the se
 1. [**Wall slide + lift-off**](#wall-slide) — 2 × 8–12  
 2. [**Neutral-grip pull-up / assisted pull-up / neutral-grip pulldown**](#pulldown) — top set 5–8, then 3 × 6–10  
 3. [**One-arm kneeling cable pulldown**](#one-arm-pulldown) — 3 × 8–12 each side  
-4. [**Straight-arm pulldown**](#straight-arm-pulldown) — 2 × 12–15  
-5. **Bayesian cable curl** — 2 × 10–15  
-6. [**Prone Y**](#prone-y) — 2 × 8–12
+4. [**One-arm dumbbell row — one hand braced, both feet planted**](#one-arm-dumbbell-row) — 3 × 8–12 each side  
+5. [**Straight-arm pulldown**](#straight-arm-pulldown) — 2 × 12–15  
+6. **Bayesian cable curl** — 2 × 10–15  
+7. [**Prone Y**](#prone-y) — 2 × 8–12
 
 ### [Session 3 — Bench Strength + Chest + Minor Triceps](#session-3)
 
@@ -128,14 +129,15 @@ Choose one option where alternatives are listed and keep it for a block of appro
 1. [**Wall slide + lift-off**](#wall-slide) — 2 × 8–12  
 2. [**Neutral-grip pull-up / assisted pull-up / neutral-grip pulldown**](#pulldown) — top set 5–8, then 3 × 6–10  
 3. [**One-arm kneeling cable pulldown**](#one-arm-pulldown) — 3 × 8–12 each side  
-4. [**Straight-arm pulldown**](#straight-arm-pulldown) — 2 × 12–15  
-5. **Bayesian cable curl** — 2 × 10–15  
-6. [**Prone Y**](#prone-y) — 2 × 8–12
+4. [**One-arm dumbbell row — one hand braced, both feet planted**](#one-arm-dumbbell-row) — 3 × 8–12 each side  
+5. [**Straight-arm pulldown**](#straight-arm-pulldown) — 2 × 12–15  
+6. **Bayesian cable curl** — 2 × 10–15  
+7. [**Prone Y**](#prone-y) — 2 × 8–12
 
-**Why this order:** The wall slide rehearses upward rotation and posterior tilt before vertical pulling. The main pull is performed fresh. The unilateral pulldown adds side-to-side control and a different line of shoulder extension. The straight-arm pulldown trains loaded downward rotation and lat capacity without adding another elbow-flexion-heavy pull. These three pulling patterns already provide sufficient width-day coverage, so the former high-to-low cable row is not replaced. Biceps receive only a small direct exposure. The prone Y restores lower-trap and upward-rotation control after the lats have been heavily used.
+**Why this order:** The wall slide rehearses upward rotation and posterior tilt before vertical pulling. The main pull is performed fresh. The unilateral pulldown adds side-to-side control and a different line of shoulder extension. The one-arm dumbbell row then adds heavier horizontal pulling while the free-hand brace keeps it from becoming an unsupported hinge. Keeping both feet planted and resisting rotation or side-bending gives the weak QL and surrounding trunk musculature a deliberate, scalable stabilization demand instead of removing them from the exercise. The familiar QL grabbing or spasm pattern remains the threshold to reduce the load or stop the set. The straight-arm pulldown follows as lighter lat work without another elbow-flexion-heavy pull. Biceps receive only a small direct exposure. The prone Y restores lower-trap and upward-rotation control after the lats have been heavily used.
 
-**Scapular job:** upwardly rotated reach at the top, followed by controlled downward rotation and depression.  
-**Serious lifting movements:** 4  
+**Scapular job:** upwardly rotated reach during the vertical pulls, controlled downward rotation, and full protraction-to-retraction glide during the row.  
+**Serious lifting movements:** 5  
 **Dedicated rehab/control exposures:** 3  
 
 ### Session 3 — Bench Strength + Chest + Minor Triceps {#session-3}
@@ -266,6 +268,7 @@ Your treadmill and 4×4 work remain outside the written program, but they still 
 | [Face-pull to ER](#face-pull) | Retraction + external rotation | Pull, then rotate the upper arms |
 | [Prone ER 90/90](#prone-er) | External rotation | Elbow stays planted; forearm rotates |
 | [Rows](#rows) | Retraction | Let the blade glide forward, then back |
+| [One-arm dumbbell row](#one-arm-dumbbell-row) | Retraction + trunk stabilization | Brace one hand; stay square while the blade glides |
 | [Reverse fly/pec deck](#reverse-fly) | Horizontal abduction | Move arms wide; do not over-pinch |
 | [Pulldown](#pulldown) | Depression/downward rotation | Elbows down; shoulders follow naturally |
 | [Straight-arm pulldown](#straight-arm-pulldown) | Depression/downward rotation | Sweep arms down without rib flare |
@@ -409,13 +412,15 @@ The useful cue is:
 
 1. <span id="rows"></span>**Rows.** At the stretched position, allow the scapula to glide forward without losing trunk position. During the pull, move the elbow and scapula backward together. Stop before the humeral head rolls forward or the torso twists, then deliberately let the blade move forward again during the return.
 
-2. <span id="kelso-shrug"></span>**Kelso shrug.** Remain chest-supported with the arms straight or nearly straight. Retract the scapulae without bending the elbows, lifting the chest from the pad, or dragging the shoulders downward. Let the blades protract again under control between repetitions.
+2. <span id="one-arm-dumbbell-row"></span>**One-arm dumbbell row with one hand braced and both feet planted.** Brace the free hand on a bench or rack, keep both feet on the floor, and hold the hips and ribs square. Let the working scapula glide forward at the bottom, then row the elbow toward the hip or lower ribs while the blade moves back naturally. Resist trunk rotation and side-bending rather than using either to lift the dumbbell; the trunk should work, but a familiar QL grab or spasm means the load or set is too much. A strap is acceptable if gripping contributes to arm symptoms. Stop the set if tingling, numbness, or a hand or arm zap appears.
 
-3. **Reverse pec deck or rear-delt fly.** Use [reverse fly](#reverse-fly).
+3. <span id="kelso-shrug"></span>**Kelso shrug.** Remain chest-supported with the arms straight or nearly straight. Retract the scapulae without bending the elbows, lifting the chest from the pad, or dragging the shoulders downward. Let the blades protract again under control between repetitions.
 
-4. **Face-pull to external rotation.** Use [face-pull](#face-pull).
+4. **Reverse pec deck or rear-delt fly.** Use [reverse fly](#reverse-fly).
 
-5. **Prone T or W.** Use [prone T](#prone-t) or [prone W](#prone-w).
+5. **Face-pull to external rotation.** Use [face-pull](#face-pull).
+
+6. **Prone T or W.** Use [prone T](#prone-t) or [prone W](#prone-w).
 
 Common errors are holding the blades permanently retracted, pulling the scapula completely backward before the arm moves, twisting the torso to create additional range, and mistaking hard depression for retraction.
 
@@ -564,7 +569,7 @@ A comprehensive bodybuilding and strength program should address horizontal and 
 | Horizontal push | Bench and close-grip paused bench | One concentrated day, appropriate for the 225 goal without excessive chest frequency |
 | Vertical/scapular-plane push | Arnold press, landmine press, cable scaption/Y raise | Strong coverage with free scapular movement |
 | Vertical pull | Pull-up/pulldown, unilateral pulldown, straight-arm pulldown | Dedicated width day |
-| Horizontal pull | Chest-supported row, unilateral cable row, Kelso shrug | Dedicated thickness day without lumbar fatigue |
+| Horizontal pull | One-arm dumbbell row, chest-supported row, unilateral cable row, Kelso shrug | Dedicated thickness work plus one braced row with deliberate trunk stabilization |
 | Horizontal abduction | Reverse pec deck, prone T | Covered without repeating it on every upper day |
 | Elbow flexion | Dedicated arm day plus small additions to both back days | Specialization-level volume |
 | Elbow extension | Dedicated arm day plus small additions to bench day | Specialization-level volume without a second chest day |
@@ -575,7 +580,7 @@ A comprehensive bodybuilding and strength program should address horizontal and 
 | Hip abduction/adduction | Machines or cables on the knee-light day | Directly included |
 | Anti-extension | Dead bug and bird dog | Covered |
 | Anti-rotation | Pallof press | Covered |
-| Anti-lateral flexion | Side plank and suitcase carry | QL priority addressed twice with different demands |
+| Anti-lateral flexion | Side plank, suitcase carry, and the braced one-arm dumbbell row | QL priority addressed directly twice, with an additional integrated stabilization demand |
 | Posterior trunk endurance | Back extension and bird dog | Covered without turning every back day into lumbar work |
 | Scapular protraction | Push-up plus, cable punch, dynamic hug, bear crawl | Repeated foundational practice |
 | Scapular retraction | Rows, Kelso shrug, reverse fly, prone T/W | Heavy and controlled exposure |
@@ -590,7 +595,7 @@ These numbers are approximate because compound exercises overlap muscle groups.
 | Area | Direct or primary sets per cycle |
 |---|---:|
 | Chest | 8 |
-| Vertical/lat-focused back | 9 |
+| Vertical/lat-focused back | 12 |
 | Horizontal upper back and rear delts | 12 |
 | Delts and scapular-plane pressing | 12 |
 | Biceps | 13 |
